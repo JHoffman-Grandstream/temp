@@ -20,7 +20,7 @@ def extract_card_name(card_info):
         return card_name
     return None
 
-def convert_deck_file(input_path, output_dir, conversion_map):
+def convert_deck_file(input_path, output_dir, conversion_map, converted_cards):
     """Convert a single deck file using the provided conversion map and save it to a new directory."""
     with open(input_path, 'r') as file:
         lines = file.readlines()
@@ -48,7 +48,7 @@ def convert_deck_file(input_path, output_dir, conversion_map):
                 parts = line.split(' ', 1)
                 if len(parts) == 2:
                     card_count, card_info = parts
-                    card_name = extract_card_name(card_info)
+                    card_name = card_info.split('|', 1)[0].strip()  # Ignore everything after and including the '|'
                     if card_name:
                         # Check if the card name is in the list of exceptions
                         if card_name in ("Forest", "Swamp", "Plains", "Mountain", "Island"):
@@ -57,7 +57,8 @@ def convert_deck_file(input_path, output_dir, conversion_map):
                             converted_lines.append(converted_line)
                         elif card_name in conversion_map:
                             lotr_card = conversion_map[card_name]  # Ignore set information
-                            converted_line = f"{card_count} {lotr_card}"
+                            set_code = next(card['setCode'] for card in converted_cards if card['mtg_card'] == card_name)
+                            converted_line = f"{card_count} {lotr_card}|{set_code}"
                             converted_lines.append(converted_line)
                         else:
                             print(f"Card not found in file '{input_path}' on line {line_number}: {line}")  # Print notice
@@ -82,7 +83,7 @@ def convert_deck_file(input_path, output_dir, conversion_map):
     with open(output_path, 'w') as file:
         file.write('\n'.join(metadata_lines + ['[Main]'] + converted_lines))
 
-def convert_all_deck_files(input_dir, output_dir, conversion_map):
+def convert_all_deck_files(input_dir, output_dir, conversion_map, converted_cards):
     """Convert all .dck files in the input directory and save them to the output directory."""
     # Delete the output directory if it exists
     if os.path.exists(output_dir):
@@ -96,16 +97,19 @@ def convert_all_deck_files(input_dir, output_dir, conversion_map):
                 output_subdir = os.path.join(output_dir, os.path.dirname(relative_path))
 
                 # Convert the deck file and save it to the output directory
-                convert_deck_file(input_path, output_subdir, conversion_map)
+                convert_deck_file(input_path, output_subdir, conversion_map, converted_cards)
 
 # Load the conversion map from converted.json
 conversion_map = load_converted_cards()
+
+# Load the converted cards list from converted.json
+converted_cards = json.load(open('converted.json', 'r'))
 
 # Paths to the input and output directories
 input_dir = 'decks'  # Replace with the path to your input directory
 output_dir = 'decks2'  # Replace with the path to your output directory
 
 # Convert all .dck files in the input directory and save them to the output directory
-convert_all_deck_files(input_dir, output_dir, conversion_map)
+convert_all_deck_files(input_dir, output_dir, conversion_map, converted_cards)
 
 print("Conversion of deck files complete.")

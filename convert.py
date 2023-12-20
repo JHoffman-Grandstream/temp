@@ -172,7 +172,8 @@ def find_similar_cards(mtg_cards, lotr_cards, fuzziness):
         if best_match:
             converted_cards.append({
                 'mtg_card': mtg_card['name'],
-                'lotr_card': best_match['name']
+                'lotr_card': best_match['name'],
+                'setCode': best_match.get('setCode', '')  # Include the set information
             })
 
     return converted_cards
