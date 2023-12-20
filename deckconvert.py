@@ -2,7 +2,7 @@ import json
 import os
 import re
 import shutil
-import sys  # Import sys module for exiting on error
+import sys
 
 def load_converted_cards(filename='converted.json'):
     """Load the converted cards mapping from a JSON file."""
@@ -10,39 +10,70 @@ def load_converted_cards(filename='converted.json'):
         converted_cards = json.load(file)
     return {card['mtg_card']: (card['lotr_card'], card['setCode']) for card in converted_cards}
 
+def extract_card_name(card_info):
+    """Extract the card name from the card information."""
+    card_name_parts = card_info.split('|')
+    if card_name_parts:
+        card_name = card_name_parts[0].strip()
+        return card_name
+    return None
+
 def convert_deck_file(input_path, output_dir, conversion_map):
     """Convert a single deck file using the provided conversion map and save it to a new directory."""
     with open(input_path, 'r') as file:
         lines = file.readlines()
 
     converted_lines = []
+    found_main = False  # Flag to track when [Main] section starts
+    found_sideboard = False  # Flag to track when [Sideboard] section starts
+    metadata_lines = []  # Store metadata lines
+
     for line_number, line in enumerate(lines, start=1):  # Track line numbers
-        if line.startswith(('2 ', '4 ', '1 ')):
-            card_info = re.split(r' \|', line.strip())
-            if len(card_info) >= 2:  # Check if card_info has at least 2 elements
-                card_name = card_info[1]
-                if card_name in conversion_map:
-                    lotr_card, set_code = conversion_map[card_name]
-                    converted_line = f"{card_info[0]} {lotr_card}|{set_code}|1\n"
-                    converted_lines.append(converted_line)
+        line = line.strip()
+        if line.startswith("[Main]"):
+            found_main = True
+            metadata_lines.append(line)  # Include [Main] in metadata
+            continue  # Skip the "[Main]" section header
+        elif line.startswith("[Sideboard]"):
+            found_sideboard = True
+            metadata_lines.append(line)  # Include [Sideboard] in metadata
+            continue  # Skip the "[Sideboard]" section header
+        elif line.startswith("[") and "]" in line:
+            # Preserve lines with brackets intact
+            metadata_lines.append(line)
+        elif found_main or found_sideboard:
+            if line:  # Check if the line is not empty
+                parts = line.split(' ', 1)
+                if len(parts) == 2:
+                    card_count, card_info = parts
+                    card_name = extract_card_name(card_info)
+                    if card_name:
+                        if card_name in conversion_map:
+                            lotr_card, _ = conversion_map[card_name]  # Ignore set information
+                            converted_line = f"{card_count} {lotr_card}"
+                            converted_lines.append(converted_line)
+                        else:
+                            print(f"Card not found in file '{input_path}' on line {line_number}: {line}")  # Print notice
+                            converted_lines.append(line)  # Keep the original card in place
+                    else:
+                        converted_lines.append(line)
+                        print(f"Invalid line in file '{input_path}' on line {line_number}: {line}")  # Print filename and line
+                        sys.exit(1)  # Exit on the first error
                 else:
                     converted_lines.append(line)
-                    print(f"Card not found on line {line_number}: {line.strip()}")  # Print line number
+                    print(f"Invalid line in file '{input_path}' on line {line_number}: {line}")  # Print filename and line
                     sys.exit(1)  # Exit on the first error
-            else:
-                converted_lines.append(line)
-                print(f"Card not found on line {line_number}: {line.strip()}")  # Print line number
-                sys.exit(1)  # Exit on the first error
         else:
-            converted_lines.append(line)
+            metadata_lines.append(line)  # Store metadata lines before [Main]
 
     # Create the output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
 
     # Save the converted deck to the output directory with the same filename
-    output_path = os.path.join(output_dir, os.path.basename(input_path))
+    output_filename = os.path.basename(input_path)
+    output_path = os.path.join(output_dir, output_filename)
     with open(output_path, 'w') as file:
-        file.writelines(converted_lines)
+        file.write('\n'.join(metadata_lines + ['[Main]'] + converted_lines))
 
 def convert_all_deck_files(input_dir, output_dir, conversion_map):
     """Convert all .dck files in the input directory and save them to the output directory."""
@@ -56,6 +87,8 @@ def convert_all_deck_files(input_dir, output_dir, conversion_map):
                 input_path = os.path.join(root, filename)
                 relative_path = os.path.relpath(input_path, input_dir)
                 output_subdir = os.path.join(output_dir, os.path.dirname(relative_path))
+
+                # Convert the deck file and save it to the output directory
                 convert_deck_file(input_path, output_subdir, conversion_map)
 
 # Load the conversion map from converted.json
