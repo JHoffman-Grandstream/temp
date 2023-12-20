@@ -14,9 +14,9 @@ def load_converted_cards(filename='converted.json'):
 
 def extract_card_name(card_info):
     """Extract the card name from the card information."""
-    card_name_parts = card_info.split('|')
+    card_name_parts = card_info.split('|', 1)  # Split only once
     if card_name_parts:
-        card_name = card_name_parts[0].strip()
+        card_name = card_name_parts[1].strip()  # Use the second part
         return card_name
     return None
 
@@ -48,8 +48,9 @@ def convert_deck_file(input_path, output_dir, conversion_map, converted_cards):
                 parts = line.split(' ', 1)
                 if len(parts) == 2:
                     card_count, card_info = parts
-                    card_name = card_info.split('|', 1)[0].strip()  # Ignore everything after and including the '|'
-                    if card_name:
+                    card_name_parts = card_info.split('|')
+                    if len(card_name_parts) >= 1:
+                        card_name = card_name_parts[0].strip()
                         # Check if the card name is in the list of exceptions
                         if card_name in ("Forest", "Swamp", "Plains", "Mountain", "Island"):
                             # Replace with the same quantity and type but change the set to |LTR
