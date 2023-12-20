@@ -3,6 +3,8 @@ from difflib import SequenceMatcher
 import sys
 import re  # Add this line for the 're' module
 
+used_cards = set()  # Add this line at the beginning of the script
+
 def load_json_file(filename):
     """Load data from a JSON file."""
     with open(filename, 'r') as file:
@@ -127,9 +129,19 @@ def find_land_mana(lotr_cards, mtg_card_text):
 
     return matching_land
 
+def similar_criteria_check(lotr_card, mtg_card, fuzziness):
+        card_type = mtg_card['type']
+        type_match = similar(card_type, lotr_card['type'], fuzziness)
+        mtg_mana_value = get_mana_value(mtg_card.get('manaCost', ''))
+        lotr_mana_value = get_mana_value(lotr_card.get('manaCost', ''))
+        mana_match = mtg_mana_value == lotr_mana_value
+        power_toughness_match = similar(f"{mtg_card.get('power', '')}/{mtg_card.get('toughness', '')}",
+                                        f"{lotr_card.get('power', '')}/{lotr_card.get('toughness', '')}", fuzziness)
+        return type_match and rarity_match(mtg_card['rarity'], lotr_card['rarity']) and power_toughness_match and mana_match
 
 def find_similar_cards(mtg_cards, lotr_cards, fuzziness):
     """Find similar cards between MTG and LOTR datasets with increasing fuzziness."""
+    global used_cards
     converted_cards = []
     for mtg_card in mtg_cards:
         best_match = None
@@ -216,7 +228,17 @@ def find_similar_cards(mtg_cards, lotr_cards, fuzziness):
                 print(f"Failed criteria: {', '.join(failed_criteria)}")
                 sys.exit(1)  # Exit on error
 
-        if best_match:
+        if best_match:            
+            if best_match['name'] in used_cards:
+                # Find another card if the best match was already used
+                alternative_match = None
+                for alt_card in lotr_cards:
+                    if alt_card != best_match and similar_criteria_check(alt_card, mtg_card, fuzziness):
+                        alternative_match = alt_card
+                        break
+                best_match = alternative_match if alternative_match else best_match
+            
+            used_cards.add(best_match['name'])
             converted_cards.append({
                 'mtg_card': mtg_card['name'],
                 'lotr_card': best_match['name'],
