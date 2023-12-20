@@ -1,0 +1,31 @@
+I want you to write a script that looks up MTG cards from database.json and finds similar matching cards in lotr.json, and writes them to a converted.json.
+
+The json contains data such as this:
+[
+    {
+        "name": "The One Ring",
+        "type": "Legendary Artifact",
+        "manaCost": "{4}",
+        "rarity": "mythic",
+        "setCode": "LTR",
+        "text": "Indestructible\nWhen The One Ring enters the battlefield, if you cast it, you gain protection from everything until your next turn.\nAt the beginning of your upkeep, you lose 1 life for each burden counter on The One Ring.\n{T}: Put a burden counter on The One Ring, then draw a card for each burden counter on The One Ring.",
+        "power": "",
+        "toughness": ""
+    }
+]
+
+You will make fuzzy matches between the database and lotr cards using:
+1. Similar types (we can be very fuzzy here)
+2. Same mana costs (in terms of total value, and in colors of mana)
+3. Same rarity
+4. Similar power and toughness (we can be slightly fuzzy here, unless there is simply no match)
+5. If it does not cost mana, then it probably produces mana, so we need to read the text field for any types and colors of mana it produces.
+6. If we have weird cases, such as a artifact or colorless card that has no similarity, then just find a match using white mana as a matching value.
+7. If we have cards with really high mana costs that are not found in lotr, just pick the highest mana cost card that matches the similar colors.
+8. If you come across something weird like {U/P}, ignore it and treat it like a colorless mana.
+9. Also store the setCode in the json as we will need it later.
+10. Treat planeswalkers as powerful, rare creatures for conversion purposes, so just pick a strong, rare creature from the same color of cards as the planeswalker.
+11. When we have two colors back to back like this: 'W', 'W' this is just W but twice (meaning 2 W mana).
+
+The script should stop if no similar conversion was found and print which card did not find a match, however we want to increase the fuzziness of our search as we dont find matches so that way we never have a missing match.
+We should print why a match was not found when we exit as well, especially when we are finding the powerful creatures or planeswalker replacements.
