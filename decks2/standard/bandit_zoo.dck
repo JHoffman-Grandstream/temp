@@ -8,42 +8,42 @@ Icon=Frodo.jpg
 Deck Type=constructed
 Profile=Reckless
 [main]
-3 Plateau
-3 Taiga
-3 Savannah
-2 Arid Mesa
-1 Wooded Foothills
-2 Grasslands
-1 Windswept Heath
-2 Mountain Valley
-3 Mountain|ZEN
-2 Forest|ZEN
-2 Plains|ZEN
-3 Kird Ape
-1 Lightning Helix
+[sideboard]
+[Main]
+3 Battlefield Forge|LTC
+3 Mines of Moria|LTR
+3 Brushland|LTC
+2 Great Hall of the Citadel|LTR
+1 Great Hall of the Citadel|LTR
+2 Great Hall of the Citadel|LTR
+1 Great Hall of the Citadel|LTR
+2 Great Hall of the Citadel|LTR
+3 Mountain|LTR
+2 Forest|LTR
+2 Plains|LTR
+3 Breaking of the Fellowship|LTR
+1 Theoden, King of Rohan|LTR
 1 Guerrilla Tactics
-3 Savannah Lions
-1 Glorious Anthem
+3 Dunedain Blade|LTR
+1 Flowering of the White Tree|LTR
 3 Plated Geopede
-1 Path to Exile
+1 Path to Exile|LTC
 1 Puncturing Light
 1 Journey to Nowhere
-1 Lightning Bolt
+1 Eomer of the Riddermark|LTR
 1 Volcanic Hammer
 3 Loam Lion
 1 Serra's Blessing
-1 Barbary Apes
-1 Steppe Lynx
+1 Brandywine Farmer|LTR
+1 Dunedain Blade|LTR
 3 Wild Nacatl
-1 Flinthoof Boar
+1 Dunedain Rangers|LTR
 1 Fledgling Griffin
-1 Summit Apes
+1 Dunedain Rangers|LTR
 1 Hedge Troll
 1 Cerodon Yearling
 1 Skyknight Legionnaire
 1 Watchwolf
-1 Raging Kavu
+1 Gimli, Mournful Avenger|LTR
 1 Rip-Clan Crasher
 1 Tattermunge Maniac
-[sideboard]
-[Main]

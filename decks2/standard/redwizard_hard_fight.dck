@@ -7,25 +7,25 @@ Description=Mono R deck with Mudbrawler Cohort and Bloodmark Mentor
 Icon=Crocodile Dundee.jpg
 Deck Type=constructed
 [main]
-21 Mountain|M10
-1 Mox Ruby
-1 Ruby Medallion
-3 Bloodmark Mentor
+[sideboard]
+[Main]
+21 Mountain|LTR
+1 Horn of the Mark|LTR
+1 Horn of the Mark|LTR
+3 Eomer of the Riddermark|LTR
 2 Cinder Pyromancer
-2 Mudbrawler Cohort
+2 Erebor Flamesmith|LTR
 2 Rockslide Ambush
-2 Spitting Earth
+2 Erebor Flamesmith|LTR
 3 Spire Barrage
 3 Flame Javelin
 2 Blood Knight
-4 Kargan Dragonlord
+4 Inferno Titan|LTC
 1 Slith Firewalker
-1 Pyre Charger
+1 Eomer of the Riddermark|LTR
 1 Feral Lightning
-4 Ball Lightning
-1 Blistering Firecat
+4 Eomer, Marshal of Rohan|LTR
+1 Fall of Cair Andros|LTR
 1 Kiki-Jiki, Mirror Breaker
-1 Rorix Bladewing
+1 Eomer of the Riddermark|LTR
 4 Tarox Bladewing
-[sideboard]
-[Main]

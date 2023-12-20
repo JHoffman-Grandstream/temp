@@ -7,22 +7,22 @@ Description=Mono U Black Vise deck with bounce spells and Howling Mine
 Icon=R2-D2.jpg
 Deck Type=constructed
 [main]
-20 Island|M11
+[sideboard]
+[Main]
+20 Island|LTR
 1 The Tabernacle at Pendrell Vale
-1 Mox Sapphire
-4 Evacuation
+1 Horn of the Mark|LTR
+4 Lost Isle Calling|LTR
 4 Upheaval
 4 Trinket Mage
-4 Black Vise
-1 Echoing Truth
-3 Boomerang
+4 Horn of the Mark|LTR
+1 Captain of Umbar|LTR
+3 Bewitching Leechcraft|LTR
 1 Repulse
 4 Hoodwink
 3 Words of Wisdom
-1 Ancestral Recall
-4 Vision Skeins
-3 Howling Mine
+1 Lost Isle Calling|LTR
+4 Captain of Umbar|LTR
+3 Horn of the Mark|LTR
 1 Remand
 1 Frozen AEther
-[sideboard]
-[Main]

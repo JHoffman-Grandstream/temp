@@ -8,21 +8,21 @@ Icon=Rambo.jpg
 Deck Type=constructed
 Profile=Reckless
 [main]
-21 Mountain
-4 Vexing Devil
+[sideboard]
+[Main]
+21 Mountain|LTR
+4 Gloin, Dwarf Emissary|LTR
 4 Tattermunge Maniac
-4 Goblin Guide
-3 Jackal Pup
-4 Zurgo Bellstriker
+4 Gloin, Dwarf Emissary|LTR
+3 Breaking of the Fellowship|LTR
+4 Gloin, Dwarf Emissary|LTR
 4 Keldon Marauders
 4 Ash Zealot
 1 Lightning Mauler
 1 Reckless Bushwhacker
 1 Goblin Freerunner
 1 Oxidda Golem
-2 Flame Slash
-2 Mizzium Mortars
-2 Shock
-2 Ghostfire
-[sideboard]
-[Main]
+2 Erebor Flamesmith|LTR
+2 Assault on Osgiliath|LTR
+2 Gimli's Axe|LTR
+2 Cast into the Fire|LTR

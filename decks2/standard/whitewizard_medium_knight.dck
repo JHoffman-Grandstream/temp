@@ -7,15 +7,17 @@ Description=Mono W Knights deck
 Icon=White Knight.jpg
 Deck Type=constructed
 [main]
+[sideboard]
+[Main]
 3 Veteran Cavalier
 3 Kabira Vindicator
 4 Lionheart Maverick
-2 Knight of Cliffhaven
+2 Eagles of the North|LTR
 2 Knight Errant
 2 Benalish Cavalry
 2 Accorder Paladin
-1 Hero of Bladehold
-1 Knight Exemplar
+1 Gandalf the White|LTR
+1 Flowering of the White Tree|LTR
 2 Leonin Skyhunter
 1 Mirran Crusader
 2 Student of Warfare
@@ -25,6 +27,4 @@ Deck Type=constructed
 2 Saltblast
 2 Path of Peace
 1 War Falcon
-24 Plains|MBS
-[sideboard]
-[Main]
+24 Plains|LTR

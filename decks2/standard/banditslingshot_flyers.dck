@@ -7,48 +7,48 @@ Description=WUR flying creatures deck with Flamebreak and Earthquake
 Icon=Abraham Lincoln.jpg
 Deck Type=constructed
 [main]
-1 Plateau
-1 Flooded Strand
-2 Arid Mesa
-2 Island|M11
-2 Plains|M11
-3 Mountain|M11
-1 Volcanic Island
-2 Scalding Tarn
+[sideboard]
+[Main]
+1 Battlefield Forge|LTC
+1 Great Hall of the Citadel|LTR
+2 Great Hall of the Citadel|LTR
+2 Island|LTR
+2 Plains|LTR
+3 Mountain|LTR
+1 Crumbling Necropolis|LTC
+2 Great Hall of the Citadel|LTR
 4 Mystic Monastery
-2 Clifftop Retreat
-2 Sulfur Falls
-1 Radiant, Archangel
+2 Clifftop Retreat|LTC
+2 Sulfur Falls|LTC
+1 Eowyn, Lady of Rohan|LTR
 1 Sky Spirit
 1 Talon Trooper
 3 Skyknight Legionnaire
 1 Archon of Redemption
 1 Ryusei, the Falling Star
-1 Lightning Angel
+1 Cavern-Hoard Dragon|LTC
 1 Pilgrim's Eye
 1 Serra Avenger
-1 Tempest Drake
-1 Highspire Mantis
+1 Prince Imrahil the Fair|LTR
+1 Theoden, King of Rohan|LTR
 1 Firemane Angel
 1 Niv-Mizzet, the Firemind
 1 Azorius First-Wing
-1 Jace's Phantasm
+1 Bewitching Leechcraft|LTR
 1 Esper Cormorants
 1 Lantern Kami
 1 Numot, the Devastator
-1 Sage of the Inward Eye
+1 Cavern-Hoard Dragon|LTC
 1 Granite Gargoyle
 1 Pride of the Clouds
 1 Warden of Evos Isle
 1 Tremor
-1 Lightning Helix
+1 Theoden, King of Rohan|LTR
 1 Electrolyze
 2 Earthquake
 4 Flamebreak
-1 Concentrate
-1 Swords to Plowshares
+1 Boon of the Wish-Giver|LTC
+1 Swords to Plowshares|LTC
 1 Gravitational Shift
-1 Thunder Dragon
+1 Gloin, Dwarf Emissary|LTR
 1 Volcanic Spray
-[sideboard]
-[Main]

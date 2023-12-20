@@ -32,11 +32,11 @@ def convert_deck_file(input_path, output_dir, conversion_map, converted_cards):
 
     for line_number, line in enumerate(lines, start=1):  # Track line numbers
         line = line.strip()
-        if line.startswith("[Main]"):
+        if line.lower().startswith("[main]"):
             found_main = True
             metadata_lines.append(line)  # Include [Main] in metadata
             continue  # Skip the "[Main]" section header
-        elif line.startswith("[Sideboard]"):
+        elif line.lower().startswith("[sideboard]"):
             found_sideboard = True
             metadata_lines.append(line)  # Include [Sideboard] in metadata
             continue  # Skip the "[Sideboard]" section header
@@ -52,11 +52,7 @@ def convert_deck_file(input_path, output_dir, conversion_map, converted_cards):
                     if len(card_name_parts) >= 1:
                         card_name = card_name_parts[0].strip()
                         # Check if the card name is in the list of exceptions
-                        if card_name in ("Forest", "Swamp", "Plains", "Mountain", "Island"):
-                            # Replace with the same quantity and type but change the set to |LTR
-                            converted_line = f"{card_count} {card_name}|LTR"
-                            converted_lines.append(converted_line)
-                        elif card_name in conversion_map:
+                        if card_name in conversion_map:
                             lotr_card = conversion_map[card_name]  # Ignore set information
                             set_code = next(card['setCode'] for card in converted_cards if card['mtg_card'] == card_name)
                             converted_line = f"{card_count} {lotr_card}|{set_code}"

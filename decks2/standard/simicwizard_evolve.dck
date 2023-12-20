@@ -7,28 +7,28 @@ Description=BUG Evolve deck with Corpsejack Menace and Master Biomancer
 Icon=The Very Hungry Caterpillar.jpg
 Deck Type=constructed
 [main]
-4 Bayou
-2 Bramblewood Paragon
+[sideboard]
+[Main]
+4 Murmuring Bosk|LTC
+2 Dunedain Rangers|LTR
 2 Bred for the Hunt
 2 Cloudfin Raptor
-4 Corpsejack Menace
-2 Cytoplast Root-Kin
-4 Drowned Catacomb
+4 Smeagol, Helpful Guide|LTR
+2 Dunedain Rangers|LTR
+4 Drowned Catacomb|LTC
 2 Elusive Krasis
-2 Experiment One
-2 Fathom Mage
-4 Hinterland Harbor
+2 Bombadil's Song|LTR
+2 Galadriel of Lothlorien|LTR
+4 Hinterland Harbor|LTC
 4 Master Biomancer
 2 Oona's Blackguard
-1 Prime Speaker Zegana
+1 Gandalf, Westward Voyager|LTC
 4 Renegade Krasis
 2 Sapphire Drake
 2 Shambleshark
-1 Tree of Redemption
-4 Tropical Island
-4 Underground Sea
-1 Varolz, the Scar-Striped
+1 Radagast the Brown|LTR
+4 Flooded Grove|LTC
+4 Choked Estuary|LTC
+1 Smeagol, Helpful Guide|LTR
 1 Vigean Hydropon
-4 Woodland Cemetery
-[sideboard]
-[Main]
+4 Woodland Cemetery|LTC

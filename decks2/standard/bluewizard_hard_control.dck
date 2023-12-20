@@ -7,29 +7,29 @@ Description=Mono U deck with Sunken City, Inundate, counterspells and bounce
 Icon=Kojak.jpg
 Deck Type=constructed
 [main]
-21 Island|M10
-1 Mox Sapphire
+[sideboard]
+[Main]
+21 Island|LTR
+1 Horn of the Mark|LTR
 1 Sapphire Medallion
-1 Ancestral Recall
-1 Time Walk
-2 Boomerang
+1 Lost Isle Calling|LTR
+1 Minas Tirith Garrison|LTR
+2 Bewitching Leechcraft|LTR
 2 Eye of Nowhere
-4 Counterspell
+4 Captain of Umbar|LTR
 1 Tidings
-2 Concentrate
+2 Boon of the Wish-Giver|LTC
 1 Kami of the Crescent Moon
 1 Thalakos Seer
 4 Briarberry Cohort
 2 Deepchannel Mentor
 3 Faerie Swarm
-3 Inundate
+3 Minas Tirith Garrison|LTR
 1 Merrow Levitator
 1 Sunken City
 2 Flow of Ideas
-1 Arcanis the Omnipotent
+1 Rangers of Ithilien|LTR
 2 Sphinx of Magosi
 1 Spire Golem
-1 Dungeon Geists
-1 Master of Waves
-[sideboard]
-[Main]
+1 Rangers of Ithilien|LTR
+1 The Watcher in the Water|LTR

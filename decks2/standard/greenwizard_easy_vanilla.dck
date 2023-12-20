@@ -7,23 +7,23 @@ Description=Mono G Muraganda Petroglyphs deck with vanilla creatures and a few t
 Icon=Radagast.jpg
 Deck Type=constructed
 [main]
-23 Forest|M11
-4 Muraganda Petroglyphs
-2 Hornet Sting
+[sideboard]
+[Main]
+23 Forest|LTR
+4 Elven Chorus|LTR
+2 Brandywine Farmer|LTR
 2 Hurricane
-1 Needle Storm
+1 Harmonize|LTC
 1 Momentous Fall
 4 Elvish Warrior
 4 Leatherback Baloth
 3 Gnarled Mass
 3 Trained Armodon
 3 Call of the Herd
-1 Beacon of Creation
+1 Legolas, Master Archer|LTR
 3 Imperiosaur
 2 Bestial Menace
-1 Beast Attack
+1 Gift of Strands|LTR
 1 Moss Monster
 1 Silverback Ape
 1 Craw Wurm
-[sideboard]
-[Main]

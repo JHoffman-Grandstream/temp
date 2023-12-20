@@ -7,20 +7,20 @@ Description=Mono W Enchantment deck with Blessed Spirits and Sigil of the Empty 
 Icon=Casper.jpg
 Deck Type=constructed
 [main]
-22 Plains
-1 Serra's Sanctum
+[sideboard]
+[Main]
+22 Plains|LTR
+1 Minas Tirith|LTR
 1 Archetype of Courage
 4 Blessed Spirits
 2 Celestial Ancient
 3 Hopeful Eidolon
-4 Mesa Enchantress
+4 Boromir, Warden of the Tower|LTR
 1 Nyx-Fleece Ram
-4 Ethereal Armor
-1 Heliod, God of the Sun
+4 Dunedain Blade|LTR
+1 Gandalf the White|LTR
 4 Journey to Nowhere
 3 Oblivion Ring
 4 Pacifism
 4 Sigil of the Empty Throne
 2 Replenish
-[sideboard]
-[Main]

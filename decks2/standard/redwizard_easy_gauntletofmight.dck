@@ -7,17 +7,17 @@ Description=Mono R Gauntlet of Might deck with pumpable creatures
 Icon=Firestorm.jpg
 Deck Type=constructed
 [main]
-2 Blood Moon
-4 Bloodmark Mentor
-4 Dragon Hatchling
-4 Flamekin Brawler
+[sideboard]
+[Main]
+2 Fall of Cair Andros|LTR
+4 Eomer of the Riddermark|LTR
+4 Breaking of the Fellowship|LTR
+4 Erebor Flamesmith|LTR
 4 Gauntlet of Might
-2 Molten Ravager
+2 Breaking of the Fellowship|LTR
 4 Moonveil Dragon
-24 Mountain
-4 Pyre Charger
+24 Mountain|LTR
+4 Eomer of the Riddermark|LTR
 4 Rage Reflection
 2 Volcanic Strength
 2 Whispersilk Cloak
-[sideboard]
-[Main]

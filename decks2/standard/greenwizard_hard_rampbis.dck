@@ -7,20 +7,20 @@ Description=Mono G Essence of the Wild deck
 Icon=Chewbacca.jpg
 Deck Type=constructed
 [main]
+[sideboard]
+[Main]
 4 Awakening Zone
-4 Birds of Paradise
+4 Birds of Paradise|LTC
 1 Concordant Crossroads
 4 Dryad Arbor
 4 Essence of the Wild
 4 Fierce Empath
 2 Fists of Ironwood
-15 Forest
-4 Fyndhorn Elves
+15 Forest|LTR
+4 Brandywine Farmer|LTR
 4 Growth Spasm
-4 Khalni Garden
-4 Llanowar Elves
+4 The Shire|LTR
+4 Brandywine Farmer|LTR
 1 Nest Invader
-4 Noble Hierarch
-1 Mox Emerald
-[sideboard]
-[Main]
+4 Fall of Gil-galad|LTR
+1 Horn of the Mark|LTR

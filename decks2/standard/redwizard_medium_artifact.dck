@@ -7,22 +7,24 @@ Description=Mono R Artifact deck
 Icon=Iron Man.jpg
 Deck Type=constructed
 [main]
-12 Mountain
+[sideboard]
+[Main]
+12 Mountain|LTR
 4 Great Furnace
-4 Darksteel Citadel
+4 Great Hall of the Citadel|LTR
 1 Memnite
 1 Frogmite
-1 Arcbound Worker
+1 Lembas|LTR
 1 Brass Gnat
 1 Flayer Husk
 1 Leonin Scimitar
 1 Pyrite Spellbomb
 1 Tablet of Epityr
 1 Urza's Chalice
-1 Iron Myr
+1 Lembas|LTR
 1 Arcbound Stinger
 1 Executioner's Hood
-1 Golem's Heart
+1 Ent-Draught Basin|LTR
 1 Jhoira's Toolbox
 1 Myr Sire
 1 Golem Foundry
@@ -46,5 +48,3 @@ Deck Type=constructed
 1 Concussive Bolt
 1 Kuldotha Phoenix
 1 Feedback Bolt
-[sideboard]
-[Main]

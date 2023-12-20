@@ -7,16 +7,18 @@ Description=Mono B Fear deck with Thran Lens
 Icon=Ratbert.jpg
 Deck Type=constructed
 [main]
-23 Swamp|M11
+[sideboard]
+[Main]
+23 Swamp|LTR
 4 Thran Lens
 1 Dread
 1 Gluttonous Zombie
-1 Guiltfeeder
-1 Lingering Tormentor
+1 One Ring to Rule Them All|LTR
+1 Gorbag of Minas Morgul|LTR
 3 Nezumi Cutthroat
 2 Order of Yawgmoth
 2 Prickly Boggart
-2 Severed Legion
+2 Cirith Ungol Patrol|LTR
 1 Dross Prowler
 1 Razortooth Rats
 3 Shriekmaw
@@ -24,9 +26,7 @@ Deck Type=constructed
 3 Halo Hunter
 1 Crowd of Cinders
 4 Dross Golem
-1 Geth, Lord of the Vault
+1 Abyssal Persecutor|LTC
 2 Wrench Mind
 2 Death Stroke
 1 Grasp of Darkness
-[sideboard]
-[Main]

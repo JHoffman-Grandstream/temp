@@ -7,23 +7,21 @@ Description=Mono R Giants deck
 Icon=Hagrid.jpg
 Deck Type=constructed
 [main]
-4 Pyroclasm|M11
-20 Mountain|MBS
-1 Sunrise Sovereign|LRW
-4 Lash Out|LRW
-4 Arid Mesa|ZEN
-4 Blind-Spot Giant|LRW
-1 Craven Giant|STH
-1 Giant's Ire|LRW
-4 Fire Diamond|7ED
-2 Shatterskull Giant|ZEN
-1 Magma Giant|5DN
-4 Thundercloud Shaman|LRW
-4 Stinkdrinker Daredevil|LRW
-4 Spitting Earth|10E
-1 Borderland Behemoth|MOR
-1 Inferno Titan|M11
 [sideboard]
-
-
 [Main]
+4 Fiery Inscription|LTR
+20 Mountain|LTR
+1 Eomer, Marshal of Rohan|LTR
+4 Gimli's Axe|LTR
+4 Great Hall of the Citadel|LTR
+4 Cast into the Fire|LTR
+1 Breaking of the Fellowship|LTR
+1 Breaking of the Fellowship|LTR
+4 Lembas|LTR
+2 Cast into the Fire|LTR
+1 Eomer, Marshal of Rohan|LTR
+4 Eomer of the Riddermark|LTR
+4 Erebor Flamesmith|LTR
+4 Erebor Flamesmith|LTR
+1 Eomer, Marshal of Rohan|LTR
+1 Inferno Titan|LTC

@@ -7,11 +7,13 @@ Description=Mono B Sacrifice deck with Reassembling Skeleton and Vampiric Rites
 Icon=Black Abott.jpg
 Deck Type=constructed
 [main]
-23 Swamp|ONS
-1 Mox Jet
+[sideboard]
+[Main]
+23 Swamp|LTR
+1 Horn of the Mark|LTR
 4 Nether Traitor
-4 Reassembling Skeleton
-4 Bloodghast
+4 Gorbag of Minas Morgul|LTR
+4 One Ring to Rule Them All|LTR
 4 Endless Cockroaches
 4 Krovikan Horror
 1 Geralf's Messenger
@@ -21,10 +23,8 @@ Deck Type=constructed
 1 Stronghold Assassin
 1 Nezumi Bone-Reader
 1 Plagued Rusalka
-1 Grim Haruspex
-1 Grave Pact
-2 Go for the Throat
+1 One Ring to Rule Them All|LTR
+1 Diabolic Intent|LTC
+2 Go for the Throat|LTC
 1 Geth's Verdict
-1 Hymn to Tourach
-[sideboard]
-[Main]
+1 March from the Black Gate|LTR

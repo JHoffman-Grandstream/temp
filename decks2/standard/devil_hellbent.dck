@@ -7,18 +7,20 @@ Description=BR Hellbent deck
 Icon=Diablo.jpg
 Deck Type=constructed
 [main]
-4 Badlands
-4 Bloodstained Mire
-3 Blackcleave Cliffs
-2 Mountain
-4 Swamp
-1 Urborg, Tomb of Yawgmoth
+[sideboard]
+[Main]
+4 Mount Doom|LTR
+4 Great Hall of the Citadel|LTR
+3 Mount Doom|LTR
+2 Mountain|LTR
+4 Swamp|LTR
+1 Urborg, Tomb of Yawgmoth|LTC
 1 Keldon Megaliths
-1 Mox Jet
-1 Mox Ruby
+1 Horn of the Mark|LTR
+1 Horn of the Mark|LTR
 3 Simian Spirit Guide
-4 Rakdos Cackler
-1 Tormented Soul
+4 Ugluk of the White Hand|LTR
+1 Cirith Ungol Patrol|LTR
 4 Bump in the Night
 4 Executioner's Capsule
 4 Seal of Fire
@@ -32,5 +34,3 @@ Deck Type=constructed
 1 Dark Suspicions
 2 Grafted Skullcap
 2 Bottled Cloister
-[sideboard]
-[Main]

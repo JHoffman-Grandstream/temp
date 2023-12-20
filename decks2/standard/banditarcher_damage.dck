@@ -7,31 +7,31 @@ Description=BR direct damage deck
 Icon=Hellboy.jpg
 Deck Type=constructed
 [main]
-5 Swamp
-7 Mountain
-3 Blackcleave Cliffs
-3 Dragonskull Summit
-1 Blood Crypt
-4 Bloodstained Mire
+[sideboard]
+[Main]
+5 Swamp|LTR
+7 Mountain|LTR
+3 Mount Doom|LTR
+3 Dragonskull Summit|LTC
+1 Mount Doom|LTR
+4 Great Hall of the Citadel|LTR
 1 Stensia Bloodhall
 4 Bump in the Night
-4 Lava Spike
-3 Flame Jet
+4 Eomer of the Riddermark|LTR
+3 Erebor Flamesmith|LTR
 1 Lava Blister
 1 Molten Influence
 1 Smash to Smithereens
 2 Blightning
 2 Flames of the Blood Hand
-2 Pulse of the Forge
+2 Eomer, Marshal of Rohan|LTR
 1 Sizzle
 2 Poison the Well
 3 Scorching Missile
 3 Breath of Malfegor
 1 Burning Fields
-1 Lava Axe
+1 Erebor Flamesmith|LTR
 1 Kiss of Death
 1 Stolen Grain
-2 Curse of Bloodletting
-1 Fire Servant
-[sideboard]
-[Main]
+2 Eomer, Marshal of Rohan|LTR
+1 Eomer of the Riddermark|LTR
