@@ -11,7 +11,7 @@ Name=cloudguard
 [Main]
 1 Bill Ferny, Bree Swindler|LTR
 1 Gwaihir the Windlord|LTR
-2 Lost to Legend|LTR
+2 Banishing Light|LTC
 4 Captain of Umbar|LTR
 4 Prince Imrahil the Fair|LTR
 4 Dreadful as the Storm|LTR
@@ -23,9 +23,9 @@ Name=cloudguard
 2 Lost to Legend|LTR
 4 Glacial Fortress|LTC
 1 Pippin, Guard of the Citadel|LTR
-4 Hallowed Fountain|SLD|1
+4 Glacial Fortress|LTC
 3 Eagles of the North|LTR
-4 Irrigated Farmland|CMM|1
+4 Glacial Fortress|LTC
 6 Island|LTR
 2 Saradoc, Master of Buckland|LTR
 1 Storm of Saruman|LTR
@@ -35,7 +35,7 @@ Name=cloudguard
 1 Dusk // Dawn|LTC
 4 Port Town|LTC
 4 Prairie Stream|LTC
-4 Sea of Clouds|CLB|1
+4 Glacial Fortress|LTC
 3 Reprieve|LTR
 1 The Great Henge|LTC
 3 Saradoc, Master of Buckland|LTR
@@ -47,6 +47,6 @@ Name=cloudguard
 3 The Watcher in the Water|LTR
 2 Pippin, Guard of the Citadel|LTR
 1 Anduril, Flame of the West|LTR
-4 Tundra|PRM|1
+4 Glacial Fortress|LTC
 1 Eowyn, Lady of Rohan|LTR
 1 Eowyn, Lady of Rohan|LTR

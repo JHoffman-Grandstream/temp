@@ -10,20 +10,20 @@ Name=orc_warrior
 [Dungeon]
 [Main]
 2 Erebor Flamesmith|LTR
-1 Call for Aid|LTC
-1 Barad-Dur|LTR|1
+1 Assault on Osgiliath|LTR
+1 Barad-dur|LTR
 1 Boon of the Wish-Giver|LTC
-4 Blood Crypt|RNA|1
+4 Mount Doom|LTR
 2 Orcish Bowmasters|LTR
-1 Eomer of the Riddermark|LTR
+1 Book of Mazarbul|LTR
 4 Abyssal Persecutor|LTC
 2 Abyssal Persecutor|LTC
-1 Display of Power|LTR
-1 Fear, Fire, Foes!|LTR
+1 Fall of Cair Andros|LTR
+1 Foray of Orcs|LTR
 2 Erebor Flamesmith|LTR
-2 Bitter Downfall|LTR
+2 March from the Black Gate|LTR
 2 Orcish Bowmasters|LTR
-2 Gollum, Patient Plotter|LTR
+2 Merciless Executioner|LTC
 8 Mountain|LTR
 2 Nasty End|LTR
 2 Erkenbrand, Lord of Westfold|LTR
@@ -31,5 +31,5 @@ Name=orc_warrior
 2 Erebor Flamesmith|LTR
 2 Orcish Bowmasters|LTR
 9 Swamp|LTR
-2 Battle-Scarred Goblin|LTR
+2 Warbeast of Gorgoroth|LTR
 4 Gloin, Dwarf Emissary|LTR

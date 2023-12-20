@@ -10,23 +10,23 @@ Name=slimefoot
 [Dungeon]
 [Main]
 4 Call for Unity|LTC
-4 Bayou|30A|1
+4 Murmuring Bosk|LTC
 2 Merciless Executioner|LTC
 4 Smeagol, Helpful Guide|LTR
 4 Cultivate|LTC
 1 Decree of Pain|LTC
 2 Snarling Warg|LTR
 4 Voracious Fell Beast|LTR
-4 Deathcap Glade|VOW|1
+4 Murmuring Bosk|LTC
 3 Bitter Downfall|LTR
 11 Forest|LTR
 2 Forest|LTR
 3 Forest|LTR
 2 The Great Henge|LTC
 2 Tale of Tinuviel|LTR
-4 Haunted Mire|DMU|1
-4 Indatha Triome|IKO|1
-2 Llanowar Wastes|BRO|1
+4 Murmuring Bosk|LTC
+4 Murmuring Bosk|LTC
+2 Brushland|LTC
 4 Galadhrim Bow|LTR
 3 Tale of Tinuviel|LTR
 4 Bitter Downfall|LTR
@@ -35,12 +35,12 @@ Name=slimefoot
 4 Brandywine Farmer|LTR
 4 Ent's Fury|LTR
 2 Riders of the Mark|LTR
-4 Overgrown Tomb|GRN|1
+4 Murmuring Bosk|LTC
 2 Eastfarthing Farmer|LTR
 3 Plains|LTR
 2 Galadhrim Bow|LTR
 2 Galadhrim Bow|LTR
-4 Savannah|30A|1
+4 Brushland|LTC
 1 Explore|LTC
 4 Pippin, Warden of Isengard|LTC
 4 Savvy Hunter|LTC
@@ -55,7 +55,7 @@ Name=slimefoot
 4 Galadhrim Bow|LTR
 2 Elanor Gardner|LTR
 2 Fall of Gil-galad|LTR
-4 Verdant Catacombs|MM3|1
+4 Great Hall of the Citadel|LTR
 4 The Balrog, Durin's Bane|LTR
 4 Orcish Medicine|LTR
 4 Woodland Cemetery|LTC

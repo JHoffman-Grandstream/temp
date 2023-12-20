@@ -10,13 +10,13 @@ Name=rustic_golem
 [Dungeon]
 [Main]
 1 Horn of the Mark|LTR
-4 Blasted Landscape|CM2|1
+4 Great Hall of the Citadel|LTR
 4 Lembas|LTR
 1 Horn of the Mark|LTR
 2 Ent-Draught Basin|LTR
-4 Darksteel Citadel|DDU|1
+4 Great Hall of the Citadel|LTR
 2 Horn of the Mark|LTR
-2 Drownyard Temple|C19|1
+2 Great Hall of the Citadel|LTR
 3 Lembas|LTR
 2 Ent-Draught Basin|LTR
 3 Ent-Draught Basin|LTR
@@ -26,5 +26,5 @@ Name=rustic_golem
 2 Horn of the Mark|LTR
 4 Horn of the Mark|LTR
 4 Ent-Draught Basin|LTR
-14 Wastes|SLD|1
+14 Great Hall of the Citadel|LTR
 2 Lembas|LTR

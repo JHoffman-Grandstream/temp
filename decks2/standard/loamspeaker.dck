@@ -9,7 +9,7 @@ Name=loamspeaker
 [Conspiracy]
 [Dungeon]
 [Main]
-4 Argoth, Sanctum of Nature|BRO|1
+4 The Shire|LTR
 2 The Great Henge|LTC
 2 Sylvan Tutor|LTC
 3 Cultivate|LTC
@@ -20,7 +20,7 @@ Name=loamspeaker
 2 Galadriel of Lothlorien|LTR
 2 The Great Henge|LTC
 2 Legolas, Master Archer|LTR
-4 Misty Rainforest|MH2|1
+4 Great Hall of the Citadel|LTR
 1 The Great Henge|LTC
 2 Pippin's Bravery|LTR
 3 Ent's Fury|LTR
@@ -31,5 +31,5 @@ Name=loamspeaker
 1 The Great Henge|LTC
 2 Ishkanah, Grafwidow|LTC
 3 Legolas, Master Archer|LTR
-4 Tropical Island|30A|1
+4 Flooded Grove|LTC
 2 Quickbeam, Upstart Ent|LTR

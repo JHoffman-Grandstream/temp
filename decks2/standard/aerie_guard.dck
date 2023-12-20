@@ -11,14 +11,14 @@ Name=aerie_guard
 [Main]
 2 East-Mark Cavalier|LTR
 2 Scroll of Isildur|LTR
-2 Emeria's Call|ZNR|1
+2 Great Hall of the Citadel|LTR
 1 Prince Imrahil the Fair|LTR
 1 Gandalf, White Rider|LTR
-2 Flooded Strand|KTK|1
-3 Hallowed Fountain|SLD|1
+2 Great Hall of the Citadel|LTR
+3 Glacial Fortress|LTC
 2 Nimble Hobbit|LTR
 1 Monstrosity of the Lake|LTC
-2 Irrigated Farmland|C20|1
+2 Glacial Fortress|LTC
 2 The Great Henge|LTC
 2 Island|LTR
 1 Island|LTR
@@ -42,7 +42,7 @@ Name=aerie_guard
 2 Fangorn, Tree Shepherd|LTR
 1 Gandalf, White Rider|LTR
 2 Swan Song|LTC
-3 Tundra|OLGC|1
+3 Glacial Fortress|LTC
 2 Prince Imrahil the Fair|LTR
 2 Saradoc, Master of Buckland|LTR
 1 Arwen's Gift|LTR

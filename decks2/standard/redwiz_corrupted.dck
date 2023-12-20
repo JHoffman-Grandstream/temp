@@ -10,8 +10,8 @@ Name=Adventure - Corrupted Red Mage
 [Dungeon]
 [Main]
 2 Gloin, Dwarf Emissary|LTR
-2 Blackcleave Cliffs|SOM|1
-1 Blood Crypt|RNA|1
+2 Mount Doom|LTR
+1 Mount Doom|LTR
 3 Lembas|LTR
 2 Eomer of the Riddermark|LTR
 2 Lembas|LTR
@@ -26,7 +26,7 @@ Name=Adventure - Corrupted Red Mage
 4 Gloin, Dwarf Emissary|LTR
 2 Shire Scarecrow|LTR
 4 Gloin, Dwarf Emissary|LTR
-1 Rix Maadi, Dungeon Palace|DIS|1
+1 Sulfurous Springs|LTC
 2 Eomer of the Riddermark|LTR
 2 Smoldering Marsh|LTC
 1 Sulfurous Springs|LTC
@@ -36,7 +36,7 @@ Name=Adventure - Corrupted Red Mage
 1 Swamp|LTR
 1 Swamp|LTR
 1 Swamp|LTR
-2 Tainted Peak|VOC|1
+2 Sulfurous Springs|LTC
 1 Erebor Flamesmith|LTR
 2 Eomer of the Riddermark|LTR
 1 Fiery Inscription|LTR

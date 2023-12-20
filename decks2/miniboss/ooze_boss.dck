@@ -4,14 +4,14 @@ Name=slime_boss
 [Main]
 2 Meriadoc Brandybuck|LTR
 1 Elanor Gardner|LTR
-4 Bayou|30A|1
+4 Murmuring Bosk|LTC
 1 Beast Within|LTC
 2 Beast Within|LTC
 2 Radagast the Brown|LTR
 1 Legolas, Master Archer|LTR
 1 Combat Celebrant|LTC
 4 Galadhrim Bow|LTR
-4 Elven Farsight|LTR
+4 Explore|LTC
 1 Forest|LTR
 2 Forest|LTR
 2 Sauron, the Necromancer|LTR
@@ -20,7 +20,7 @@ Name=slime_boss
 3 Necroblossom Snarl|LTC
 1 A-Orcish Bowmasters|LTR
 2 Sauron, the Necromancer|LTR
-4 Overgrown Tomb|GRN|1
+4 Murmuring Bosk|LTC
 1 Fangorn, Tree Shepherd|LTR
 2 Witch-king, Bringer of Ruin|LTR
 2 Fangorn, Tree Shepherd|LTR
@@ -29,5 +29,5 @@ Name=slime_boss
 1 Swamp|LTR
 1 Swamp|LTR
 1 Sauron, the Necromancer|LTR
-4 Verdant Catacombs|MH2|1
+4 Great Hall of the Citadel|LTR
 4 Woodland Cemetery|LTC

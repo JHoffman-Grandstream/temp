@@ -95,6 +95,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Kabira Crossroads",
+        "lotr_card": "Minas Tirith",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Karmic Guide",
         "lotr_card": "Saradoc, Master of Buckland",
         "setCode": "LTR"
@@ -115,6 +120,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Radiant Fountain",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Radiant, Archangel",
         "lotr_card": "Faramir, Field Commander",
         "setCode": "LTR"
@@ -127,6 +137,11 @@
     {
         "mtg_card": "Righteous Valkyrie",
         "lotr_card": "Frodo, Determined Hero",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Seraph Sanctuary",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -241,8 +256,8 @@
     },
     {
         "mtg_card": "The Great Henge",
-        "lotr_card": "Radagast the Brown",
-        "setCode": "LTR"
+        "lotr_card": "The Great Henge",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "The Tarrasque",
@@ -475,6 +490,16 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Dwarven Hold",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Dwarven Mine",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Glorybringer",
         "lotr_card": "Riders of the Mark",
         "setCode": "LTR"
@@ -568,6 +593,11 @@
         "mtg_card": "Utvara Hellkite",
         "lotr_card": "Inferno Titan",
         "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Valakut, the Molten Pinnacle",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
     },
     {
         "mtg_card": "Wrathful Red Dragon",
@@ -665,9 +695,19 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Arid Mesa",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Austere Command",
         "lotr_card": "Dusk // Dawn",
         "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Badlands",
+        "lotr_card": "Mount Doom",
+        "setCode": "LTR"
     },
     {
         "mtg_card": "Barbed Sliver",
@@ -685,6 +725,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Bloodstained Mire",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Blur Sliver",
         "lotr_card": "Erebor Flamesmith",
         "setCode": "LTR"
@@ -697,6 +742,11 @@
     {
         "mtg_card": "Brood Sliver",
         "lotr_card": "Mirkwood Channeler",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "City of Brass",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -750,6 +800,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Flooded Strand",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Fungus Sliver",
         "lotr_card": "Elanor Gardner",
         "setCode": "LTR"
@@ -795,6 +850,16 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Indatha Triome",
+        "lotr_card": "Murmuring Bosk",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Jetmir's Garden",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Kindred Discovery",
         "lotr_card": "Lost Isle Calling",
         "setCode": "LTR"
@@ -810,13 +875,28 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Mana Confluence",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Manaweft Sliver",
         "lotr_card": "Prosperous Innkeeper",
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Marsh Flats",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Might Sliver",
         "lotr_card": "Glorfindel, Dauntless Rescuer",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Misty Rainforest",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -832,6 +912,11 @@
     {
         "mtg_card": "Patriarch's Bidding",
         "lotr_card": "Languish",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Plateau",
+        "lotr_card": "Battlefield Forge",
         "setCode": "LTC"
     },
     {
@@ -855,6 +940,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Raffine's Tower",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Rally the Ranks",
         "lotr_card": "Forge Anew",
         "setCode": "LTR"
@@ -873,6 +963,21 @@
         "mtg_card": "Root Sliver",
         "lotr_card": "Meriadoc Brandybuck",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Savai Triome",
+        "lotr_card": "Mount Doom",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Savannah",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Scrubland",
+        "lotr_card": "Isolated Chapel",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Sedge Sliver",
@@ -898,6 +1003,11 @@
         "mtg_card": "Sliver Gravemother",
         "lotr_card": "The Great Henge",
         "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Sliver Hive",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
     },
     {
         "mtg_card": "Sliver Hivelord",
@@ -955,14 +1065,34 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Taiga",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "The First Sliver",
         "lotr_card": "The Great Henge",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "The World Tree",
+        "lotr_card": "Crumbling Necropolis",
         "setCode": "LTC"
     },
     {
         "mtg_card": "Toxin Sliver",
         "lotr_card": "Witch-king, Bringer of Ruin",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Tropical Island",
+        "lotr_card": "Flooded Grove",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Tundra",
+        "lotr_card": "Glacial Fortress",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Two-Headed Sliver",
@@ -995,14 +1125,34 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Windswept Heath",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Winged Sliver",
         "lotr_card": "Ithilien Kingfisher",
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Wooded Foothills",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Xander's Lounge",
+        "lotr_card": "Crumbling Necropolis",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Yavimaya, Cradle of Growth",
         "lotr_card": "Yavimaya, Cradle of Growth",
         "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Ziatora's Proving Ground",
+        "lotr_card": "Mount Doom",
+        "setCode": "LTR"
     },
     {
         "mtg_card": "Angelheart Vial",
@@ -1065,6 +1215,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Gaea's Cradle",
+        "lotr_card": "The Shire",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Gisela, Blade of Goldnight",
         "lotr_card": "The Balrog, Durin's Bane",
         "setCode": "LTR"
@@ -1110,6 +1265,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Mikokoro, Center of the Sea",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Minamo, School at Water's Edge",
         "lotr_card": "Minamo, School at Water's Edge",
         "setCode": "LTC"
@@ -1130,8 +1290,18 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Nykthos, Shrine to Nyx",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Platinum Angel",
         "lotr_card": "Anduril, Flame of the West",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Plaza of Heroes",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -1195,6 +1365,26 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Tyrite Sanctum",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Vault of the Archangel",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Volrath's Stronghold",
+        "lotr_card": "Sulfurous Springs",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Yavimaya Hollow",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Agent of Raffine",
         "lotr_card": "Elvish Mariner",
         "setCode": "LTR"
@@ -1217,6 +1407,11 @@
     {
         "mtg_card": "Oracle of the Alpha",
         "lotr_card": "Witch-king of Angmar",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Polluted Delta",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -1265,6 +1460,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Underground Sea",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Vesuvan Mist",
         "lotr_card": "Council's Deliberation",
         "setCode": "LTR"
@@ -1278,6 +1478,11 @@
         "mtg_card": "Xander's Wake",
         "lotr_card": "Gollum's Bite",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Zagoth Triome",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Chandra's Embercat",
@@ -1317,6 +1522,11 @@
     {
         "mtg_card": "Jaya's Immolating Inferno",
         "lotr_card": "Gloin, Dwarf Emissary",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Karn's Bastion",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -1410,9 +1620,19 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Argoth, Sanctum of Nature",
+        "lotr_card": "The Shire",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Bramblecrush",
         "lotr_card": "Explore",
         "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Castle Garenbrig",
+        "lotr_card": "The Shire",
+        "setCode": "LTR"
     },
     {
         "mtg_card": "Elder Gargaroth",
@@ -1455,8 +1675,18 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Gate to Manorborn",
+        "lotr_card": "The Shire",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Gemrazer",
         "lotr_card": "Legolas, Master Archer",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Gingerbread Cabin",
+        "lotr_card": "The Shire",
         "setCode": "LTR"
     },
     {
@@ -1665,14 +1895,34 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Library of Alexandria",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Maze of Ith",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Preston, the Vanisher",
         "lotr_card": "Saradoc, Master of Buckland",
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Seachrome Coast",
+        "lotr_card": "Glacial Fortress",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Space Beleren",
         "lotr_card": "Colossal Whale",
         "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Strip Mine",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
     },
     {
         "mtg_card": "Supreme Verdict",
@@ -1697,6 +1947,11 @@
     {
         "mtg_card": "Barbary Apes",
         "lotr_card": "Galadhrim Bow",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Cinder Glade",
+        "lotr_card": "Mines of Moria",
         "setCode": "LTR"
     },
     {
@@ -1765,6 +2020,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Rootbound Crag",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Scrounging Bandar",
         "lotr_card": "Shire Scarecrow",
         "setCode": "LTR"
@@ -1790,6 +2050,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Stomping Ground",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Summit Apes",
         "lotr_card": "Meriadoc Brandybuck",
         "setCode": "LTR"
@@ -1802,6 +2067,11 @@
     {
         "mtg_card": "Tree Monkey",
         "lotr_card": "Lothlorien Lookout",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Treetop Village",
+        "lotr_card": "The Shire",
         "setCode": "LTR"
     },
     {
@@ -1842,6 +2112,21 @@
     {
         "mtg_card": "Birds of Paradise",
         "lotr_card": "Birds of Paradise",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Boseiju, Who Endures",
+        "lotr_card": "The Shire",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Botanical Sanctum",
+        "lotr_card": "Flooded Grove",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Breeding Pool",
+        "lotr_card": "Flooded Grove",
         "setCode": "LTC"
     },
     {
@@ -1930,9 +2215,19 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Otawara, Soaring City",
+        "lotr_card": "Rivendell",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Rapid Hybridization",
         "lotr_card": "Saruman's Trickery",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Restless Vinestalk",
+        "lotr_card": "Flooded Grove",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Rivendell",
@@ -1953,6 +2248,16 @@
         "mtg_card": "Serpent of Yawning Depths",
         "lotr_card": "Scroll of Isildur",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Simic Growth Chamber",
+        "lotr_card": "Flooded Grove",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Simic Guildgate",
+        "lotr_card": "Flooded Grove",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Simic Sky Swallower",
@@ -2003,6 +2308,11 @@
         "mtg_card": "Up the Beanstalk",
         "lotr_card": "Gift of Strands",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Waterlogged Grove",
+        "lotr_card": "Flooded Grove",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Woodland Stream",
@@ -2170,6 +2480,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Mishra's Workshop",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Myr Battlesphere",
         "lotr_card": "Sting, the Glinting Dagger",
         "setCode": "LTR"
@@ -2217,6 +2532,26 @@
     {
         "mtg_card": "Urtet, Remnant of Memnarch",
         "lotr_card": "Anduril, Flame of the West",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Urza's Mine",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Urza's Power Plant",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Urza's Tower",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Urza's Workshop",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -2268,6 +2603,11 @@
         "mtg_card": "Goblin Gaveleer",
         "lotr_card": "Rohirrim Lancer",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Inspiring Vantage",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Kaldra Compleat",
@@ -2340,6 +2680,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Sacred Foundry",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Seraphic Greatsword",
         "lotr_card": "The Great Henge",
         "setCode": "LTC"
@@ -2390,6 +2735,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Bayou",
+        "lotr_card": "Murmuring Bosk",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Beast Within",
         "lotr_card": "Beast Within",
         "setCode": "LTC"
@@ -2416,8 +2766,8 @@
     },
     {
         "mtg_card": "Explore",
-        "lotr_card": "Elven Farsight",
-        "setCode": "LTR"
+        "lotr_card": "Explore",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Gelatinous Cube",
@@ -2450,6 +2800,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Overgrown Tomb",
+        "lotr_card": "Murmuring Bosk",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Predator Ooze",
         "lotr_card": "Fangorn, Tree Shepherd",
         "setCode": "LTR"
@@ -2472,6 +2827,11 @@
     {
         "mtg_card": "Uchuulon",
         "lotr_card": "Sauron, the Necromancer",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Verdant Catacombs",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -2510,6 +2870,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Deathcap Glade",
+        "lotr_card": "Murmuring Bosk",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Deathsprout",
         "lotr_card": "Bitter Downfall",
         "setCode": "LTR"
@@ -2523,6 +2888,16 @@
         "mtg_card": "Golgari Germination",
         "lotr_card": "Tale of Tinuviel",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Haunted Mire",
+        "lotr_card": "Murmuring Bosk",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Llanowar Wastes",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Mold Shambler",
@@ -2810,6 +3185,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Hallowed Fountain",
+        "lotr_card": "Glacial Fortress",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Historian of Zhalfir",
         "lotr_card": "Elrond, Lord of Rivendell",
         "setCode": "LTR"
@@ -2970,6 +3350,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Zhalfirin Void",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Academy Manufactor",
         "lotr_card": "Trailblazer's Boots",
         "setCode": "LTR"
@@ -3000,6 +3385,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Godless Shrine",
+        "lotr_card": "Isolated Chapel",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Gyome, Master Chef",
         "lotr_card": "The Great Henge",
         "setCode": "LTC"
@@ -3028,6 +3418,11 @@
         "mtg_card": "Oyaminartok, Polar Werebear",
         "lotr_card": "Galadriel, Gift-Giver",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Spara's Headquarters",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Taste of Death",
@@ -3255,6 +3650,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Westvale Abbey",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Abrade",
         "lotr_card": "Gimli's Fury",
         "setCode": "LTR"
@@ -3365,6 +3765,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Riveteers Overlook",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Scute Mob",
         "lotr_card": "Fangorn, Tree Shepherd",
         "setCode": "LTR"
@@ -3372,6 +3777,11 @@
     {
         "mtg_card": "Scute Swarm",
         "lotr_card": "Fangorn, Tree Shepherd",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Swarmyard",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -3415,6 +3825,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Forbidden Orchard",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Gilded Drake",
         "lotr_card": "Rangers of Ithilien",
         "setCode": "LTR"
@@ -3440,6 +3855,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Raugrin Triome",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Relic Robber",
         "lotr_card": "Siege-Gang Commander",
         "setCode": "LTC"
@@ -3453,6 +3873,11 @@
         "mtg_card": "Sphere of Safety",
         "lotr_card": "Reprieve",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Volcanic Island",
+        "lotr_card": "Crumbling Necropolis",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Zedruu the Greathearted",
@@ -3488,6 +3913,11 @@
         "mtg_card": "Delver's Torch",
         "lotr_card": "Village Bell-Ringer",
         "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Dungeon Descent",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
     },
     {
         "mtg_card": "Dungeon Map",
@@ -3575,6 +4005,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Treasure Vault",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Veteran Dungeoneer",
         "lotr_card": "Eagles of the North",
         "setCode": "LTR"
@@ -3600,6 +4035,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Emeria's Call",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Empyrean Eagle",
         "lotr_card": "Prince Imrahil the Fair",
         "setCode": "LTR"
@@ -3617,6 +4057,11 @@
     {
         "mtg_card": "Inniaz, the Gale Force",
         "lotr_card": "Monstrosity of the Lake",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Irrigated Farmland",
+        "lotr_card": "Glacial Fortress",
         "setCode": "LTC"
     },
     {
@@ -3747,6 +4192,11 @@
     {
         "mtg_card": "Hallowed Respite",
         "lotr_card": "Supreme Verdict",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Idyllic Beachfront",
+        "lotr_card": "Glacial Fortress",
         "setCode": "LTC"
     },
     {
@@ -3955,6 +4405,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Canyon Slough",
+        "lotr_card": "Mount Doom",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Cartouche of Ambition",
         "lotr_card": "Morgul-Knife Wound",
         "setCode": "LTR"
@@ -3965,8 +4420,23 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Cinder Barrens",
+        "lotr_card": "Mount Doom",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Deem Worthy",
         "lotr_card": "Rising of the Day",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Desert of the Fervent",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Desert of the Glorified",
+        "lotr_card": "Barad-dur",
         "setCode": "LTR"
     },
     {
@@ -3988,6 +4458,11 @@
         "mtg_card": "Hazoret's Monument",
         "lotr_card": "Ent-Draught Basin",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Ifnir Deadlands",
+        "lotr_card": "Sulfurous Springs",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Insult // Injury",
@@ -4020,8 +4495,23 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Ramunap Ruins",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Sunscorched Desert",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Supernatural Stamina",
         "lotr_card": "Orcish Medicine",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Survivors' Encampment",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -4113,6 +4603,11 @@
         "mtg_card": "Sandwurm Convergence",
         "lotr_card": "Fall of Gil-galad",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Tangled Islet",
+        "lotr_card": "Flooded Grove",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "The Sea Devils",
@@ -4315,6 +4810,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Ancient Den",
+        "lotr_card": "Minas Tirith",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Angel of the Ruins",
         "lotr_card": "Field-Tested Frying Pan",
         "setCode": "LTC"
@@ -4347,6 +4847,11 @@
     {
         "mtg_card": "Dispatch",
         "lotr_card": "Reprieve",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Eiganjo, Seat of the Empire",
+        "lotr_card": "Minas Tirith",
         "setCode": "LTR"
     },
     {
@@ -4465,6 +4970,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Overgrown Farmland",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Skyshroud Lookout",
         "lotr_card": "Prosperous Innkeeper",
         "setCode": "LTC"
@@ -4552,6 +5062,26 @@
     {
         "mtg_card": "Overwhelmed Archivist",
         "lotr_card": "Voracious Fell Beast",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Razortide Bridge",
+        "lotr_card": "Glacial Fortress",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Seat of the Synod",
+        "lotr_card": "Rivendell",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Temple of Enlightenment",
+        "lotr_card": "Glacial Fortress",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Tolarian Academy",
+        "lotr_card": "Rivendell",
         "setCode": "LTR"
     },
     {
@@ -4721,7 +5251,7 @@
     },
     {
         "mtg_card": "Trailblazer's Boots",
-        "lotr_card": "Barrow-Blade",
+        "lotr_card": "Trailblazer's Boots",
         "setCode": "LTR"
     },
     {
@@ -4805,6 +5335,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Aether Hub",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Aether Meltdown",
         "lotr_card": "The Bath Song",
         "setCode": "LTR"
@@ -4860,6 +5395,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Inventors' Fair",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Irontread Crusher",
         "lotr_card": "Lembas",
         "setCode": "LTR"
@@ -4902,6 +5442,11 @@
     {
         "mtg_card": "Saheeli Rai",
         "lotr_card": "Colossal Whale",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Spirebluff Canal",
+        "lotr_card": "Crumbling Necropolis",
         "setCode": "LTC"
     },
     {
@@ -4990,6 +5535,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Haunted Ridge",
+        "lotr_card": "Mount Doom",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Heckling Fiends",
         "lotr_card": "Goblin Cratermaker",
         "setCode": "LTC"
@@ -5037,6 +5587,16 @@
     {
         "mtg_card": "Sin Prodder",
         "lotr_card": "Flamerush Rider",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Alpine Meadow",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Axgard Armory",
+        "lotr_card": "Battlefield Forge",
         "setCode": "LTC"
     },
     {
@@ -5180,6 +5740,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Prismatic Vista",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Rysorian Badger",
         "lotr_card": "Elanor Gardner",
         "setCode": "LTR"
@@ -5197,6 +5762,11 @@
     {
         "mtg_card": "Assassinate",
         "lotr_card": "Claim the Precious",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Bloodfell Caves",
+        "lotr_card": "Mount Doom",
         "setCode": "LTR"
     },
     {
@@ -5257,6 +5827,11 @@
     {
         "mtg_card": "Graveblade Marauder",
         "lotr_card": "Nazgul",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Hall of the Bandit Lord",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -5345,6 +5920,16 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Desert",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Desert of the True",
+        "lotr_card": "Minas Tirith",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Desert Twister",
         "lotr_card": "Explore",
         "setCode": "LTC"
@@ -5353,6 +5938,16 @@
         "mtg_card": "Fall of the Thran",
         "lotr_card": "Forge Anew",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Field of the Dead",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Hashep Oasis",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Hazezon Tamar",
@@ -5471,7 +6066,7 @@
     },
     {
         "mtg_card": "Champions of Minas Tirith",
-        "lotr_card": "Field-Tested Frying Pan",
+        "lotr_card": "Champions of Minas Tirith",
         "setCode": "LTC"
     },
     {
@@ -5597,6 +6192,11 @@
     {
         "mtg_card": "Grizzly Bears",
         "lotr_card": "Brandywine Farmer",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Mosswort Bridge",
+        "lotr_card": "The Shire",
         "setCode": "LTR"
     },
     {
@@ -5730,6 +6330,16 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Gavony Township",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Grasslands",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Grizzled Leotau",
         "lotr_card": "Eagles of the North",
         "setCode": "LTR"
@@ -5740,6 +6350,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Idyllic Grange",
+        "lotr_card": "Minas Tirith",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Indomitable Ancients",
         "lotr_card": "Frodo, Determined Hero",
         "setCode": "LTR"
@@ -5747,6 +6362,11 @@
     {
         "mtg_card": "Jasmine Boreal of the Seven",
         "lotr_card": "Butterbur, Bree Innkeeper",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Krosan Verge",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -5763,6 +6383,11 @@
         "mtg_card": "Muraganda Petroglyphs",
         "lotr_card": "Fall of Gil-galad",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Radiant Grove",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Ruxa, Patient Professor",
@@ -5835,6 +6460,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Hive of the Eye Tyrant",
+        "lotr_card": "Barad-dur",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Hobgoblin Captain",
         "lotr_card": "Erebor Flamesmith",
         "setCode": "LTR"
@@ -5900,6 +6530,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Darksteel Citadel",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Deadly Derision",
         "lotr_card": "Nasty End",
         "setCode": "LTR"
@@ -5927,6 +6562,11 @@
     {
         "mtg_card": "Marionette Master",
         "lotr_card": "Orcish Bowmasters",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Mishra's Factory",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -5987,6 +6627,11 @@
     {
         "mtg_card": "Trazyn the Infinite",
         "lotr_card": "Lobelia Sackville-Baggins",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Vault of Whispers",
+        "lotr_card": "Barad-dur",
         "setCode": "LTR"
     },
     {
@@ -6083,6 +6728,11 @@
         "mtg_card": "Urborg",
         "lotr_card": "Urborg",
         "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Witch's Cottage",
+        "lotr_card": "Barad-dur",
+        "setCode": "LTR"
     },
     {
         "mtg_card": "Blightspeaker",
@@ -6242,6 +6892,11 @@
     {
         "mtg_card": "Armor Thrull",
         "lotr_card": "Dunland Crebain",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Barren Moor",
+        "lotr_card": "Barad-dur",
         "setCode": "LTR"
     },
     {
@@ -6523,6 +7178,11 @@
         "mtg_card": "Young Blue Dragon",
         "lotr_card": "Grey Havens Navigator",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Academy Ruins",
+        "lotr_card": "Desolate Lighthouse",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Baithook Angler",
@@ -6935,6 +7595,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Hall of Oracles",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Merfolk Falconer",
         "lotr_card": "Elrond, Lord of Rivendell",
         "setCode": "LTR"
@@ -6950,8 +7615,18 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Riptide Laboratory",
+        "lotr_card": "Desolate Lighthouse",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Skaab Wrangler",
         "lotr_card": "Bill Ferny, Bree Swindler",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Snow-Covered Island",
+        "lotr_card": "Island",
         "setCode": "LTR"
     },
     {
@@ -6967,6 +7642,11 @@
     {
         "mtg_card": "Talrand, Sky Summoner",
         "lotr_card": "Rangers of Ithilien",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "The Biblioplex",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -7125,6 +7805,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Darkslick Shores",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Dralnu's Pet",
         "lotr_card": "Rangers of Ithilien",
         "setCode": "LTR"
@@ -7150,6 +7835,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Nephalia Drownyard",
+        "lotr_card": "Underground River",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Phyrexian Espionage",
         "lotr_card": "Birthday Escape",
         "setCode": "LTR"
@@ -7158,6 +7848,11 @@
         "mtg_card": "Possessed Aven",
         "lotr_card": "Rangers of Ithilien",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "River of Tears",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Rona, Herald of Invasion",
@@ -7180,6 +7875,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Tainted Isle",
+        "lotr_card": "Underground River",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Underground River",
         "lotr_card": "Underground River",
         "setCode": "LTC"
@@ -7188,6 +7888,11 @@
         "mtg_card": "Vodalian Hypnotist",
         "lotr_card": "Elrond, Lord of Rivendell",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Watery Grave",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "An Offer You Can't Refuse",
@@ -7310,6 +8015,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Game Trail",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Krosan Tusker",
         "lotr_card": "Brandywine Farmer",
         "setCode": "LTR"
@@ -7322,6 +8032,11 @@
     {
         "mtg_card": "Rural Recruit",
         "lotr_card": "Brandywine Farmer",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Wooded Ridgeline",
+        "lotr_card": "Mines of Moria",
         "setCode": "LTR"
     },
     {
@@ -7430,6 +8145,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Gate of the Black Dragon",
+        "lotr_card": "Barad-dur",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Kokusho, the Evening Star",
         "lotr_card": "Lobelia Sackville-Baggins",
         "setCode": "LTR"
@@ -7462,6 +8182,16 @@
     {
         "mtg_card": "Ashling the Pilgrim",
         "lotr_card": "Gloin, Dwarf Emissary",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Blackcleave Cliffs",
+        "lotr_card": "Mount Doom",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Blood Crypt",
+        "lotr_card": "Mount Doom",
         "setCode": "LTR"
     },
     {
@@ -7602,6 +8332,11 @@
     {
         "mtg_card": "Scour the Desert",
         "lotr_card": "Sunset Revelry",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Shefet Dunes",
+        "lotr_card": "Battlefield Forge",
         "setCode": "LTC"
     },
     {
@@ -7951,8 +8686,8 @@
     },
     {
         "mtg_card": "Ishkanah, Grafwidow",
-        "lotr_card": "Radagast the Brown",
-        "setCode": "LTR"
+        "lotr_card": "Ishkanah, Grafwidow",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Llanowar Greenwidow",
@@ -8115,6 +8850,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Selesnya Guildgate",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Seton's Scout",
         "lotr_card": "Dunedain Rangers",
         "setCode": "LTR"
@@ -8122,6 +8862,16 @@
     {
         "mtg_card": "Skyshooter",
         "lotr_card": "Dunedain Rangers",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Snow-Covered Forest",
+        "lotr_card": "Forest",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Snow-Covered Plains",
+        "lotr_card": "Plains",
         "setCode": "LTR"
     },
     {
@@ -8138,6 +8888,11 @@
         "mtg_card": "Swordwise Centaur",
         "lotr_card": "Brandywine Farmer",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Temple of Plenty",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Trostani's Judgment",
@@ -8160,6 +8915,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Arcane Sanctum",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Black Market Connections",
         "lotr_card": "One Ring to Rule Them All",
         "setCode": "LTR"
@@ -8172,6 +8932,11 @@
     {
         "mtg_card": "Cephalid Broker",
         "lotr_card": "Bill Ferny, Bree Swindler",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Cephalid Coliseum",
+        "lotr_card": "Rivendell",
         "setCode": "LTR"
     },
     {
@@ -8251,8 +9016,8 @@
     },
     {
         "mtg_card": "Banishing Light",
-        "lotr_card": "Lost to Legend",
-        "setCode": "LTR"
+        "lotr_card": "Banishing Light",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Deafening Clarion",
@@ -8272,6 +9037,11 @@
     {
         "mtg_card": "Fires of Invention",
         "lotr_card": "Fall of Cair Andros",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Interplanar Beacon",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -8295,6 +9065,26 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Steam Vents",
+        "lotr_card": "Crumbling Necropolis",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Swiftwater Cliffs",
+        "lotr_card": "Crumbling Necropolis",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Temple of Epiphany",
+        "lotr_card": "Crumbling Necropolis",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Temple of Triumph",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Tranquil Cove",
         "lotr_card": "Tranquil Cove",
         "setCode": "LTC"
@@ -8312,6 +9102,11 @@
     {
         "mtg_card": "Bonecrusher Giant",
         "lotr_card": "Eomer, Marshal of Rohan",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Castle Embereth",
+        "lotr_card": "Mines of Moria",
         "setCode": "LTR"
     },
     {
@@ -8355,6 +9150,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Castle Locthwain",
+        "lotr_card": "Barad-dur",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Disfigure",
         "lotr_card": "Nasty End",
         "setCode": "LTR"
@@ -8362,6 +9162,11 @@
     {
         "mtg_card": "Edgewall Innkeeper",
         "lotr_card": "Dunedain Rangers",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Fabled Passage",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -8373,6 +9178,11 @@
         "mtg_card": "Foulmire Knight",
         "lotr_card": "Gorbag of Minas Morgul",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Jungle Hollow",
+        "lotr_card": "Murmuring Bosk",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Lovestruck Beast",
@@ -8405,6 +9215,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Temple of Malady",
+        "lotr_card": "Murmuring Bosk",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Vraska, Golgari Queen",
         "lotr_card": "Savvy Hunter",
         "setCode": "LTC"
@@ -8417,6 +9232,11 @@
     {
         "mtg_card": "Brineborn Cutthroat",
         "lotr_card": "Elrond, Lord of Rivendell",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Castle Vantress",
+        "lotr_card": "Rivendell",
         "setCode": "LTR"
     },
     {
@@ -8443,6 +9263,11 @@
         "mtg_card": "Spectral Sailor",
         "lotr_card": "Bill Ferny, Bree Swindler",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Temple of Mystery",
+        "lotr_card": "Flooded Grove",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Thornwood Falls",
@@ -8500,6 +9325,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Skyclave Cleric",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "The Birth of Meletis",
         "lotr_card": "Reprieve",
         "setCode": "LTR"
@@ -8510,8 +9340,18 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Blackbloom Rogue",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Bloodchief's Thirst",
         "lotr_card": "Boon of the Wish-Giver",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Dismal Backwater",
+        "lotr_card": "Choked Estuary",
         "setCode": "LTC"
     },
     {
@@ -8530,6 +9370,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Malakir Rebirth",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Nighthawk Scavenger",
         "lotr_card": "One Ring to Rule Them All",
         "setCode": "LTR"
@@ -8545,6 +9390,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Temple of Deceit",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Thieves' Guild Enforcer",
         "lotr_card": "One Ring to Rule Them All",
         "setCode": "LTR"
@@ -8558,6 +9408,11 @@
         "mtg_card": "Zareth San, the Trickster",
         "lotr_card": "Grima, Saruman's Footman",
         "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Kazandu Mammoth",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
     },
     {
         "mtg_card": "Primal Might",
@@ -8582,6 +9437,11 @@
     {
         "mtg_card": "Thrashing Brontodon",
         "lotr_card": "Dunedain Rangers",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Turntimber Symbiosis",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -8615,6 +9475,16 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Shatterskull Smashing",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Spikefield Hazard",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Baleful Mastery",
         "lotr_card": "Isildur's Fateful Strike",
         "setCode": "LTR"
@@ -8635,8 +9505,23 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Hall of Storm Giants",
+        "lotr_card": "Rivendell",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Hero's Downfall",
         "lotr_card": "Gollum's Bite",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Ice Tunnel",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Jwari Disruption",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -8652,6 +9537,16 @@
     {
         "mtg_card": "Parasitic Grasp",
         "lotr_card": "Gollum's Bite",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Shipwreck Marsh",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Snow-Covered Swamp",
+        "lotr_card": "Swamp",
         "setCode": "LTR"
     },
     {
@@ -8675,6 +9570,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Lair of the Hydra",
+        "lotr_card": "The Shire",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Light Up the Night",
         "lotr_card": "Call for Aid",
         "setCode": "LTC"
@@ -8682,6 +9582,11 @@
     {
         "mtg_card": "Ranger Class",
         "lotr_card": "Elven Chorus",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Rockfall Vale",
+        "lotr_card": "Mines of Moria",
         "setCode": "LTR"
     },
     {
@@ -8725,8 +9630,18 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Faceless Haven",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Fateful Absence",
         "lotr_card": "War of the Last Alliance",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Kabira Takedown",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -8745,8 +9660,18 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Blightstep Pathway",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Bloodtithe Harvester",
         "lotr_card": "Ugluk of the White Hand",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Den of the Bugbear",
+        "lotr_card": "Mines of Moria",
         "setCode": "LTR"
     },
     {
@@ -8792,6 +9717,11 @@
     {
         "mtg_card": "Voldaren Epicure",
         "lotr_card": "Erebor Flamesmith",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Voldaren Estate",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -8960,6 +9890,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Ketria Triome",
+        "lotr_card": "Crumbling Necropolis",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Robot Chicken",
         "lotr_card": "Glamdring",
         "setCode": "LTR"
@@ -9068,6 +10003,11 @@
         "mtg_card": "Speaker of the Heavens",
         "lotr_card": "Frodo, Sauron's Bane",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Temple of Silence",
+        "lotr_card": "Isolated Chapel",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Abyssal Specter",
@@ -9195,6 +10135,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Seaside Citadel",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Storvald, Frost Giant Jarl",
         "lotr_card": "Galadriel, Light of Valinor",
         "setCode": "LTC"
@@ -9203,6 +10148,11 @@
         "mtg_card": "Sun Titan",
         "lotr_card": "Gandalf the White",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Temple Garden",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Thryx, the Sudden Storm",
@@ -9267,6 +10217,11 @@
     {
         "mtg_card": "Port Town",
         "lotr_card": "Port Town",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Sea of Clouds",
+        "lotr_card": "Glacial Fortress",
         "setCode": "LTC"
     },
     {
@@ -9380,6 +10335,16 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Caves of Koilos",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Concealed Courtyard",
+        "lotr_card": "Isolated Chapel",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Dawn of a New Age",
         "lotr_card": "Dawn of a New Age",
         "setCode": "LTR"
@@ -9465,6 +10430,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Silent Clearing",
+        "lotr_card": "Isolated Chapel",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Sunscourge Champion",
         "lotr_card": "Eowyn, Lady of Rohan",
         "setCode": "LTR"
@@ -9473,6 +10443,11 @@
         "mtg_card": "Suture Spirit",
         "lotr_card": "Eowyn, Lady of Rohan",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Tainted Field",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Twilight Panther",
@@ -9690,6 +10665,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Akoum Refuge",
+        "lotr_card": "Mount Doom",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Bitterheart Witch",
         "lotr_card": "Gorbag of Minas Morgul",
         "setCode": "LTR"
@@ -9753,6 +10733,11 @@
         "mtg_card": "Maddening Hex",
         "lotr_card": "Fall of Cair Andros",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Tainted Peak",
+        "lotr_card": "Sulfurous Springs",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Terminate",
@@ -10171,8 +11156,8 @@
     },
     {
         "mtg_card": "Heirloom Blade",
-        "lotr_card": "Barrow-Blade",
-        "setCode": "LTR"
+        "lotr_card": "Heirloom Blade",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Ihsan's Shade",
@@ -10401,7 +11386,7 @@
     },
     {
         "mtg_card": "Decree of Pain",
-        "lotr_card": "Languish",
+        "lotr_card": "Decree of Pain",
         "setCode": "LTC"
     },
     {
@@ -10450,6 +11435,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Scalding Tarn",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Sire of Insanity",
         "lotr_card": "Shagrat, Loot Bearer",
         "setCode": "LTR"
@@ -10477,6 +11467,16 @@
     {
         "mtg_card": "Desert Nomads",
         "lotr_card": "Erebor Flamesmith",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Desert of the Indomitable",
+        "lotr_card": "The Shire",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Dunes of the Dead",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -10510,6 +11510,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Creeping Tar Pit",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Drowned Catacomb",
         "lotr_card": "Drowned Catacomb",
         "setCode": "LTC"
@@ -10535,6 +11540,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Takenuma, Abandoned Mire",
+        "lotr_card": "Barad-dur",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Thought Scour",
         "lotr_card": "Deceive the Messenger",
         "setCode": "LTR"
@@ -10552,6 +11562,11 @@
     {
         "mtg_card": "Biting-Palm Ninja",
         "lotr_card": "One Ring to Rule Them All",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Clearwater Pathway",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -10681,8 +11696,8 @@
     },
     {
         "mtg_card": "Scattered Groves",
-        "lotr_card": "Horn of Gondor",
-        "setCode": "LTR"
+        "lotr_card": "Scattered Groves",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Siegehorn Ceratops",
@@ -10743,6 +11758,11 @@
         "mtg_card": "Rampaging Raptor",
         "lotr_card": "Gloin, Dwarf Emissary",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Sacred Peaks",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Silverclad Ferocidons",
@@ -10840,6 +11860,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Stone Quarry",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Strider Harness",
         "lotr_card": "Lembas",
         "setCode": "LTR"
@@ -10862,6 +11887,16 @@
     {
         "mtg_card": "Tilonalli's Crown",
         "lotr_card": "Cast into the Fire",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Unclaimed Territory",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Unknown Shores",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -10985,6 +12020,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Prismari Campus",
+        "lotr_card": "Crumbling Necropolis",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Quiet Contemplation",
         "lotr_card": "Council's Deliberation",
         "setCode": "LTR"
@@ -11057,6 +12097,11 @@
     {
         "mtg_card": "Akroan Mastiff",
         "lotr_card": "Eagles of the North",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Animal Sanctuary",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -11260,6 +12305,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Haunted Fengraf",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Incubation // Incongruity",
         "lotr_card": "Voracious Fell Beast",
         "setCode": "LTR"
@@ -11280,9 +12330,19 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Wandering Fumarole",
+        "lotr_card": "Crumbling Necropolis",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Izzet Charm",
         "lotr_card": "Oliphaunt",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Stormcarved Coast",
+        "lotr_card": "Crumbling Necropolis",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Desolate Lighthouse",
@@ -11405,6 +12465,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Dwarven Ruins",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Impending Disaster",
         "lotr_card": "Fall of Cair Andros",
         "setCode": "LTR"
@@ -11442,6 +12507,16 @@
     {
         "mtg_card": "Keldon Firebombers",
         "lotr_card": "Gloin, Dwarf Emissary",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Lotus Vale",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Mountain Valley",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -11560,6 +12635,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Crawling Barrens",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Earth Elemental",
         "lotr_card": "Erebor Flamesmith",
         "setCode": "LTR"
@@ -11580,6 +12660,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Flamekin Village",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Foundry Champion",
         "lotr_card": "Merry, Esquire of Rohan",
         "setCode": "LTR"
@@ -11593,6 +12678,11 @@
         "mtg_card": "Miner's Bane",
         "lotr_card": "Erebor Flamesmith",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Needle Spires",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Ondu Rising",
@@ -11777,6 +12867,11 @@
     {
         "mtg_card": "Maraleaf Pixie",
         "lotr_card": "Legolas, Counter of Kills",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Mystic Sanctuary",
+        "lotr_card": "Rivendell",
         "setCode": "LTR"
     },
     {
@@ -11980,6 +13075,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Eldrazi Temple",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Endless One",
         "lotr_card": "Sting, the Glinting Dagger",
         "setCode": "LTR"
@@ -12035,6 +13135,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Wastes",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Zhulodok, Void Gorger",
         "lotr_card": "The Great Henge",
         "setCode": "LTC"
@@ -12078,6 +13183,11 @@
         "mtg_card": "Endbringer",
         "lotr_card": "Cavern-Hoard Dragon",
         "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Eye of Ugin",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
     },
     {
         "mtg_card": "Flayer of Loyalties",
@@ -12208,6 +13318,11 @@
         "mtg_card": "Eyeblight's Ending",
         "lotr_card": "Haunt of the Dead Marshes",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Gilt-Leaf Palace",
+        "lotr_card": "Murmuring Bosk",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Glissa Sunslayer",
@@ -12405,6 +13520,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Cave of the Frost Dragon",
+        "lotr_card": "Minas Tirith",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Darksteel Mutation",
         "lotr_card": "Eowyn, Lady of Rohan",
         "setCode": "LTR"
@@ -12440,9 +13560,19 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Serra's Sanctum",
+        "lotr_card": "Minas Tirith",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Gold-Forged Thopteryx",
         "lotr_card": "Prince Imrahil the Fair",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Goldmire Bridge",
+        "lotr_card": "Isolated Chapel",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Kappa Cannoneer",
@@ -12452,6 +13582,16 @@
     {
         "mtg_card": "Master of Etherium",
         "lotr_card": "Rangers of Ithilien",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Mistvault Bridge",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Obscura Storefront",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -12600,6 +13740,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Spinerock Knoll",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Tarfire",
         "lotr_card": "Cast into the Fire",
         "setCode": "LTR"
@@ -12607,6 +13752,16 @@
     {
         "mtg_card": "Viridescent Wisps",
         "lotr_card": "Pippin's Bravery",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Vivid Crag",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Vivid Grove",
+        "lotr_card": "The Shire",
         "setCode": "LTR"
     },
     {
@@ -12637,6 +13792,11 @@
     {
         "mtg_card": "Faerie Bladecrafter",
         "lotr_card": "One Ring to Rule Them All",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Faerie Conclave",
+        "lotr_card": "Rivendell",
         "setCode": "LTR"
     },
     {
@@ -12683,6 +13843,11 @@
         "mtg_card": "Scion of Oona",
         "lotr_card": "Rangers of Ithilien",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Secluded Glen",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Shadow Puppeteers",
@@ -12773,6 +13938,11 @@
         "mtg_card": "Segovian Angel",
         "lotr_card": "Eagles of the North",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Sunlit Marsh",
+        "lotr_card": "Isolated Chapel",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Vengeful Reaper",
@@ -12906,8 +14076,8 @@
     },
     {
         "mtg_card": "Inferno Titan",
-        "lotr_card": "Display of Power",
-        "setCode": "LTR"
+        "lotr_card": "Inferno Titan",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Quakebringer",
@@ -13240,6 +14410,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Adarkar Wastes",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Aerial Responder",
         "lotr_card": "Eowyn, Lady of Rohan",
         "setCode": "LTR"
@@ -13263,6 +14438,11 @@
         "mtg_card": "Frost Breath",
         "lotr_card": "Deceive the Messenger",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Glacial Floodplain",
+        "lotr_card": "Glacial Fortress",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Grasping Giant",
@@ -13400,6 +14580,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Copperline Gorge",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Evolving Adaptive",
         "lotr_card": "Dunedain Rangers",
         "setCode": "LTR"
@@ -13452,6 +14637,11 @@
     {
         "mtg_card": "Devouring Light",
         "lotr_card": "Reprieve",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Gargoyle Castle",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -13905,6 +15095,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Bad River",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Charix, the Raging Isle",
         "lotr_card": "Fealty to the Realm",
         "setCode": "LTC"
@@ -13985,6 +15180,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "The Seedcore",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Vivisurgeon's Insight",
         "lotr_card": "Birthday Escape",
         "setCode": "LTR"
@@ -14053,6 +15253,11 @@
         "mtg_card": "Conspicuous Snoop",
         "lotr_card": "Gloin, Dwarf Emissary",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Goblin Burrows",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Goblin Bushwhacker",
@@ -14201,8 +15406,8 @@
     },
     {
         "mtg_card": "Siege-Gang Commander",
-        "lotr_card": "Eomer, Marshal of Rohan",
-        "setCode": "LTR"
+        "lotr_card": "Siege-Gang Commander",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Warren Instigator",
@@ -14231,7 +15436,7 @@
     },
     {
         "mtg_card": "Goblin Assailant",
-        "lotr_card": "Battle-Scarred Goblin",
+        "lotr_card": "Goblin Assailant",
         "setCode": "LTR"
     },
     {
@@ -14305,6 +15510,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Secluded Steppe",
+        "lotr_card": "Minas Tirith",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Shield-Wall Sentinel",
         "lotr_card": "Lembas",
         "setCode": "LTR"
@@ -14350,8 +15560,18 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Buried Ruin",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Chronomaton",
         "lotr_card": "Ent-Draught Basin",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Cryptic Caves",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -14370,6 +15590,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Urza's Saga",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Wall of Forgotten Pharaohs",
         "lotr_card": "Lembas",
         "setCode": "LTR"
@@ -14378,6 +15603,11 @@
         "mtg_card": "Custodian of the Trove",
         "lotr_card": "Lembas",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Blooming Marsh",
+        "lotr_card": "Murmuring Bosk",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Bosk Banneret",
@@ -14453,6 +15683,11 @@
         "mtg_card": "Gaze of the Gorgon",
         "lotr_card": "Oliphaunt",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Golgari Guildgate",
+        "lotr_card": "Murmuring Bosk",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Gorgon Flail",
@@ -14575,6 +15810,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Foul Orchard",
+        "lotr_card": "Murmuring Bosk",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Golden Demise",
         "lotr_card": "Boon of the Wish-Giver",
         "setCode": "LTC"
@@ -14630,6 +15870,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Sheltered Thicket",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Blight Titan",
         "lotr_card": "One Ring to Rule Them All",
         "setCode": "LTR"
@@ -14637,6 +15882,11 @@
     {
         "mtg_card": "Crystalline Giant",
         "lotr_card": "Horn of the Mark",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Dakmor Salvage",
+        "lotr_card": "Barad-dur",
         "setCode": "LTR"
     },
     {
@@ -14820,6 +16070,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Tree of Tales",
+        "lotr_card": "The Shire",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Verdurous Gearhulk",
         "lotr_card": "The Great Henge",
         "setCode": "LTC"
@@ -14850,8 +16105,13 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Grim Backwoods",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Harmonize",
-        "lotr_card": "Explore",
+        "lotr_card": "Harmonize",
         "setCode": "LTC"
     },
     {
@@ -14860,9 +16120,19 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Nurturing Peatland",
+        "lotr_card": "Murmuring Bosk",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Possessed Centaur",
         "lotr_card": "Legolas, Master Archer",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Tainted Wood",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Warden of the First Tree",
@@ -15465,6 +16735,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Contaminated Aquifer",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Dinrova Horror",
         "lotr_card": "The Mouth of Sauron",
         "setCode": "LTR"
@@ -15478,6 +16753,11 @@
         "mtg_card": "Man-o'-War",
         "lotr_card": "Grey Havens Navigator",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Port of Karfell",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Recoil",
@@ -15671,7 +16951,7 @@
     },
     {
         "mtg_card": "Flowering of the White Tree",
-        "lotr_card": "Boromir, Warden of the Tower",
+        "lotr_card": "Flowering of the White Tree",
         "setCode": "LTR"
     },
     {
@@ -15692,6 +16972,11 @@
     {
         "mtg_card": "Jetmir, Nexus of Revels",
         "lotr_card": "Aragorn, Hornburg Hero",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Jungle Shrine",
+        "lotr_card": "Battlefield Forge",
         "setCode": "LTC"
     },
     {
@@ -15918,6 +17203,11 @@
         "mtg_card": "Bird Admirer",
         "lotr_card": "Shire Scarecrow",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Blossoming Sands",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Bow of Nylea",
@@ -16160,6 +17450,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Rimewood Falls",
+        "lotr_card": "Flooded Grove",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Rush of Ice",
         "lotr_card": "Birthday Escape",
         "setCode": "LTR"
@@ -16280,6 +17575,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Immersturm Skullcairn",
+        "lotr_card": "Mount Doom",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Infernal Pet",
         "lotr_card": "Dunland Crebain",
         "setCode": "LTR"
@@ -16307,6 +17607,16 @@
     {
         "mtg_card": "Priest of the Haunted Edge",
         "lotr_card": "Dunland Crebain",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Snow-Covered Mountain",
+        "lotr_card": "Mountain",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Sulfurous Mire",
+        "lotr_card": "Mount Doom",
         "setCode": "LTR"
     },
     {
@@ -16365,6 +17675,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Spawning Pool",
+        "lotr_card": "Barad-dur",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Broodhatch Nantuko",
         "lotr_card": "Dunedain Rangers",
         "setCode": "LTR"
@@ -16383,6 +17698,11 @@
         "mtg_card": "Luminous Broodmoth",
         "lotr_card": "Gandalf the White",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Nantuko Monastery",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Nantuko Slicer",
@@ -16425,6 +17745,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Woodland Chasm",
+        "lotr_card": "Murmuring Bosk",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Zask, Skittering Swarmlord",
         "lotr_card": "Legolas, Master Archer",
         "setCode": "LTR"
@@ -16455,6 +17780,16 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Gruul Guildgate",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Gruul Turf",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Jackal Pup",
         "lotr_card": "Erebor Flamesmith",
         "setCode": "LTR"
@@ -16482,6 +17817,11 @@
     {
         "mtg_card": "Trueheart Twins",
         "lotr_card": "Eomer of the Riddermark",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Flood Plain",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -16661,8 +18001,8 @@
     },
     {
         "mtg_card": "Cavern-Hoard Dragon",
-        "lotr_card": "Eomer, Marshal of Rohan",
-        "setCode": "LTR"
+        "lotr_card": "Cavern-Hoard Dragon",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Dragonborn Champion",
@@ -16700,8 +18040,13 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Rocky Tar Pit",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Sarkhan Vol",
-        "lotr_card": "Inferno Titan",
+        "lotr_card": "Mirkwood Elk",
         "setCode": "LTC"
     },
     {
@@ -16738,6 +18083,11 @@
         "mtg_card": "Flowstone Kavu",
         "lotr_card": "Erebor Flamesmith",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Grove of the Burnwillows",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Healing Technique",
@@ -16890,9 +18240,19 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Geothermal Bog",
+        "lotr_card": "Mount Doom",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Heraldic Banner",
         "lotr_card": "Ent-Draught Basin",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Kher Keep",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Kobold Overlord",
@@ -17540,6 +18900,21 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Novijen, Heart of Progress",
+        "lotr_card": "Flooded Grove",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Oran-Rief, the Vastwood",
+        "lotr_card": "The Shire",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Raging Ravine",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Rubblebelt Raiders",
         "lotr_card": "Gimli, Mournful Avenger",
         "setCode": "LTR"
@@ -17685,6 +19060,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Nomad Outpost",
+        "lotr_card": "Mount Doom",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Ponyback Brigade",
         "lotr_card": "Eagles of the North",
         "setCode": "LTR"
@@ -17775,6 +19155,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Growing Rites of Itlimoc",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Jadelight Ranger",
         "lotr_card": "Fall of Gil-galad",
         "setCode": "LTR"
@@ -17855,6 +19240,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Umara Wizard",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Vodalian Hexcatcher",
         "lotr_card": "Rangers of Ithilien",
         "setCode": "LTR"
@@ -17873,6 +19263,11 @@
         "mtg_card": "Waker of the Wilds",
         "lotr_card": "Fall of Gil-galad",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Wanderwine Hub",
+        "lotr_card": "Glacial Fortress",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "World Shaper",
@@ -18015,6 +19410,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Blighted Cataract",
+        "lotr_card": "Desolate Lighthouse",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Containment Membrane",
         "lotr_card": "Captain of Umbar",
         "setCode": "LTR"
@@ -18141,7 +19541,7 @@
     },
     {
         "mtg_card": "Raise the Palisade",
-        "lotr_card": "Subjugate the Hobbits",
+        "lotr_card": "Raise the Palisade",
         "setCode": "LTC"
     },
     {
@@ -18222,6 +19622,11 @@
     {
         "mtg_card": "Ghostly Changeling",
         "lotr_card": "Dunland Crebain",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Glasspool Mimic",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -18355,6 +19760,16 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Deserted Beach",
+        "lotr_card": "Glacial Fortress",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Dreamroot Cascade",
+        "lotr_card": "Flooded Grove",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Dromar's Charm",
         "lotr_card": "Tale of Tinuviel",
         "setCode": "LTR"
@@ -18420,6 +19835,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Shattered Sanctum",
+        "lotr_card": "Isolated Chapel",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Shorecrasher Mimic",
         "lotr_card": "Eagles of the North",
         "setCode": "LTR"
@@ -18428,6 +19848,11 @@
         "mtg_card": "Sultai Charm",
         "lotr_card": "Tale of Tinuviel",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Sundown Pass",
+        "lotr_card": "Battlefield Forge",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Temur Charm",
@@ -18517,6 +19942,11 @@
     {
         "mtg_card": "Sudden Impact",
         "lotr_card": "Fiery Inscription",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Temple of Malice",
+        "lotr_card": "Mount Doom",
         "setCode": "LTR"
     },
     {
@@ -18795,6 +20225,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Snowfield Sinkhole",
+        "lotr_card": "Isolated Chapel",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Unraveling Mummy",
         "lotr_card": "Denethor, Ruling Steward",
         "setCode": "LTR"
@@ -18817,6 +20252,11 @@
     {
         "mtg_card": "Blossoming Defense",
         "lotr_card": "Gift of Strands",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Desert of the Mindful",
+        "lotr_card": "Rivendell",
         "setCode": "LTR"
     },
     {
@@ -18915,6 +20355,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Opulent Palace",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Phantom Nantuko",
         "lotr_card": "Legolas, Master Archer",
         "setCode": "LTR"
@@ -18975,6 +20420,16 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Yavimaya Coast",
+        "lotr_card": "Flooded Grove",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Zoetic Cavern",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Abyssal Nocturnus",
         "lotr_card": "Orcish Bowmasters",
         "setCode": "LTR"
@@ -19011,7 +20466,7 @@
     },
     {
         "mtg_card": "Orcish Bowmasters",
-        "lotr_card": "Lobelia Sackville-Baggins",
+        "lotr_card": "Orcish Bowmasters",
         "setCode": "LTR"
     },
     {
@@ -19191,7 +20646,7 @@
     },
     {
         "mtg_card": "Gorbag of Minas Morgul",
-        "lotr_card": "Gollum, Patient Plotter",
+        "lotr_card": "Gorbag of Minas Morgul",
         "setCode": "LTR"
     },
     {
@@ -19216,7 +20671,7 @@
     },
     {
         "mtg_card": "Ugluk of the White Hand",
-        "lotr_card": "Mauhur, Uruk-hai Captain",
+        "lotr_card": "Ugluk of the White Hand",
         "setCode": "LTR"
     },
     {
@@ -19226,8 +20681,13 @@
     },
     {
         "mtg_card": "Assault on Osgiliath",
-        "lotr_card": "Call for Aid",
-        "setCode": "LTC"
+        "lotr_card": "Assault on Osgiliath",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Barad-Dur",
+        "lotr_card": "Barad-dur",
+        "setCode": "LTR"
     },
     {
         "mtg_card": "Bleeding Edge",
@@ -19241,7 +20701,7 @@
     },
     {
         "mtg_card": "Book of Mazarbul",
-        "lotr_card": "Eomer of the Riddermark",
+        "lotr_card": "Book of Mazarbul",
         "setCode": "LTR"
     },
     {
@@ -19256,12 +20716,12 @@
     },
     {
         "mtg_card": "Fall of Cair Andros",
-        "lotr_card": "Display of Power",
+        "lotr_card": "Fall of Cair Andros",
         "setCode": "LTR"
     },
     {
         "mtg_card": "Foray of Orcs",
-        "lotr_card": "Fear, Fire, Foes!",
+        "lotr_card": "Foray of Orcs",
         "setCode": "LTR"
     },
     {
@@ -19271,12 +20731,12 @@
     },
     {
         "mtg_card": "Merciless Executioner",
-        "lotr_card": "Gollum, Patient Plotter",
-        "setCode": "LTR"
+        "lotr_card": "Merciless Executioner",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Moria Marauder",
-        "lotr_card": "Eomer, Marshal of Rohan",
+        "lotr_card": "Moria Marauder",
         "setCode": "LTR"
     },
     {
@@ -19296,7 +20756,7 @@
     },
     {
         "mtg_card": "March from the Black Gate",
-        "lotr_card": "Bitter Downfall",
+        "lotr_card": "March from the Black Gate",
         "setCode": "LTR"
     },
     {
@@ -19316,7 +20776,7 @@
     },
     {
         "mtg_card": "Warbeast of Gorgoroth",
-        "lotr_card": "Battle-Scarred Goblin",
+        "lotr_card": "Warbeast of Gorgoroth",
         "setCode": "LTR"
     },
     {
@@ -19328,6 +20788,11 @@
         "mtg_card": "Dream Strix",
         "lotr_card": "Rangers of Ithilien",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Fetid Pools",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Judge's Familiar",
@@ -19605,9 +21070,19 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Phyrexia's Core",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Plague Nurse",
         "lotr_card": "Brandywine Farmer",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Razorverge Thicket",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Sinew Dancer",
@@ -19683,6 +21158,11 @@
         "mtg_card": "Shipwreck Looter",
         "lotr_card": "Captain of Umbar",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Volatile Fjord",
+        "lotr_card": "Crumbling Necropolis",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Admiral Beckett Brass",
@@ -19816,8 +21296,8 @@
     },
     {
         "mtg_card": "Hostage Taker",
-        "lotr_card": "Sharkey, Tyrant of the Shire",
-        "setCode": "LTR"
+        "lotr_card": "Hostage Taker",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Piracy Charm",
@@ -19910,6 +21390,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Khalni Garden",
+        "lotr_card": "The Shire",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Mosstodon",
         "lotr_card": "Brandywine Farmer",
         "setCode": "LTR"
@@ -19945,6 +21430,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Inkmoth Nexus",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Lotus Cobra",
         "lotr_card": "Fall of Gil-galad",
         "setCode": "LTR"
@@ -19960,6 +21450,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Arctic Treeline",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Blessing of Frost",
         "lotr_card": "Travel Through Caradhras",
         "setCode": "LTC"
@@ -19967,6 +21462,16 @@
     {
         "mtg_card": "Boreal Druid",
         "lotr_card": "Brandywine Farmer",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Boreal Shelf",
+        "lotr_card": "Glacial Fortress",
+        "setCode": "LTC"
+    },
+    {
+        "mtg_card": "Dark Depths",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -20245,8 +21750,18 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Rakdos Carnarium",
+        "lotr_card": "Mount Doom",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Rakdos Cluestone",
         "lotr_card": "Lembas",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Rakdos Guildgate",
+        "lotr_card": "Mount Doom",
         "setCode": "LTR"
     },
     {
@@ -20490,6 +22005,11 @@
         "setCode": "LTC"
     },
     {
+        "mtg_card": "Agadeem's Awakening",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Cunning Lethemancer",
         "lotr_card": "One Ring to Rule Them All",
         "setCode": "LTR"
@@ -20535,6 +22055,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Tomb Fortress",
+        "lotr_card": "Barad-dur",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Wheel of Fortune",
         "lotr_card": "Hew the Entwood",
         "setCode": "LTR"
@@ -20577,6 +22102,11 @@
     {
         "mtg_card": "Living Lightning",
         "lotr_card": "Erebor Flamesmith",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Lotus Field",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -20702,6 +22232,11 @@
     {
         "mtg_card": "Scrap",
         "lotr_card": "Gimli's Fury",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Vance's Blasting Cannons",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -20915,6 +22450,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Rix Maadi, Dungeon Palace",
+        "lotr_card": "Sulfurous Springs",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Shivan Emissary",
         "lotr_card": "Eomer of the Riddermark",
         "setCode": "LTR"
@@ -21065,6 +22605,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Blasted Landscape",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Bonded Construct",
         "lotr_card": "Lembas",
         "setCode": "LTR"
@@ -21077,6 +22622,11 @@
     {
         "mtg_card": "Dragon Engine",
         "lotr_card": "Lembas",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Drownyard Temple",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -21330,6 +22880,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Temple of Abandon",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Voyaging Satyr",
         "lotr_card": "Brandywine Farmer",
         "setCode": "LTR"
@@ -21346,7 +22901,7 @@
     },
     {
         "mtg_card": "Fall of Gil-galad",
-        "lotr_card": "Delighted Halfling",
+        "lotr_card": "Fall of Gil-galad",
         "setCode": "LTR"
     },
     {
@@ -21381,7 +22936,7 @@
     },
     {
         "mtg_card": "Xenagos, the Reveler",
-        "lotr_card": "Inferno Titan",
+        "lotr_card": "Mirkwood Elk",
         "setCode": "LTC"
     },
     {
@@ -21478,6 +23033,11 @@
         "mtg_card": "Giant Scorpion",
         "lotr_card": "Dunland Crebain",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Golgari Rot Farm",
+        "lotr_card": "Murmuring Bosk",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Poison the Cup",
@@ -21790,6 +23350,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Mortuary Mire",
+        "lotr_card": "Barad-dur",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Restless Bones",
         "lotr_card": "Dunland Crebain",
         "setCode": "LTR"
@@ -21835,6 +23400,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Leechridden Swamp",
+        "lotr_card": "Barad-dur",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Paragon of Open Graves",
         "lotr_card": "Gorbag of Minas Morgul",
         "setCode": "LTR"
@@ -21872,6 +23442,11 @@
     {
         "mtg_card": "Leeching Sliver",
         "lotr_card": "Gorbag of Minas Morgul",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Mutavault",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -21986,7 +23561,7 @@
     },
     {
         "mtg_card": "Subjugate the Hobbits",
-        "lotr_card": "Raise the Palisade",
+        "lotr_card": "Subjugate the Hobbits",
         "setCode": "LTC"
     },
     {
@@ -22187,6 +23762,11 @@
     {
         "mtg_card": "Thoughtbound Phantasm",
         "lotr_card": "Bill Ferny, Bree Swindler",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Tocasia's Dig Site",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -22445,6 +24025,21 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Thriving Grove",
+        "lotr_card": "The Shire",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Thriving Isle",
+        "lotr_card": "Rivendell",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Thriving Moor",
+        "lotr_card": "Barad-dur",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Trumpeting Gnarr",
         "lotr_card": "Legolas, Counter of Kills",
         "setCode": "LTR"
@@ -22486,7 +24081,7 @@
     },
     {
         "mtg_card": "The Balrog, Flame of Udun",
-        "lotr_card": "The Balrog, Durin's Bane",
+        "lotr_card": "The Balrog, Flame of Udun",
         "setCode": "LTR"
     },
     {
@@ -22541,8 +24136,8 @@
     },
     {
         "mtg_card": "Sauron, the Lidless Eye",
-        "lotr_card": "Witch-king, Sky Scourge",
-        "setCode": "LTC"
+        "lotr_card": "Sauron, the Lidless Eye",
+        "setCode": "LTR"
     },
     {
         "mtg_card": "Shambling Remains",
@@ -22676,8 +24271,8 @@
     },
     {
         "mtg_card": "Great Oak Guardian",
-        "lotr_card": "Celeborn the Wise",
-        "setCode": "LTR"
+        "lotr_card": "Great Oak Guardian",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Hidden Ancients",
@@ -22747,6 +24342,11 @@
     {
         "mtg_card": "Unstoppable Ash",
         "lotr_card": "Legolas, Master Archer",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Vastwood Fortification",
+        "lotr_card": "Great Hall of the Citadel",
         "setCode": "LTR"
     },
     {
@@ -22940,6 +24540,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Jund Panorama",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Jund Sojourners",
         "lotr_card": "Eagles of the North",
         "setCode": "LTR"
@@ -22962,6 +24567,11 @@
     {
         "mtg_card": "Rubblebelt Runner",
         "lotr_card": "Eagles of the North",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Savage Lands",
+        "lotr_card": "Mount Doom",
         "setCode": "LTR"
     },
     {
@@ -23550,6 +25160,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Sequestered Stash",
+        "lotr_card": "Great Hall of the Citadel",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Sky Skiff",
         "lotr_card": "Lembas",
         "setCode": "LTR"
@@ -23820,6 +25435,16 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Highland Forest",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Highland Weald",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Hungering Yeti",
         "lotr_card": "Eomer of the Riddermark",
         "setCode": "LTR"
@@ -23968,6 +25593,11 @@
         "mtg_card": "Tomb Tyrant",
         "lotr_card": "Orcish Bowmasters",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Unholy Grotto",
+        "lotr_card": "Sulfurous Springs",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Vile Rebirth",
@@ -24148,6 +25778,11 @@
         "mtg_card": "Ironclad Slayer",
         "lotr_card": "Eagles of the North",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Meandering River",
+        "lotr_card": "Glacial Fortress",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Sovereigns of Lost Alara",
@@ -24350,6 +25985,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Submerged Boneyard",
+        "lotr_card": "Choked Estuary",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Sure-Footed Infiltrator",
         "lotr_card": "Elrond, Lord of Rivendell",
         "setCode": "LTR"
@@ -24525,6 +26165,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Timber Gorge",
+        "lotr_card": "Mines of Moria",
+        "setCode": "LTR"
+    },
+    {
         "mtg_card": "Electrickery",
         "lotr_card": "Gimli's Fury",
         "setCode": "LTR"
@@ -24533,6 +26178,11 @@
         "mtg_card": "Goblin Wizardry",
         "lotr_card": "Gimli's Fury",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Highland Lake",
+        "lotr_card": "Crumbling Necropolis",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Incursion Specialist",
@@ -24583,6 +26233,11 @@
         "mtg_card": "Exile",
         "lotr_card": "Fog on the Barrow-Downs",
         "setCode": "LTR"
+    },
+    {
+        "mtg_card": "Forsaken Sanctuary",
+        "lotr_card": "Isolated Chapel",
+        "setCode": "LTC"
     },
     {
         "mtg_card": "Herald of Hadar",
@@ -24760,6 +26415,11 @@
         "setCode": "LTR"
     },
     {
+        "mtg_card": "Tranquil Expanse",
+        "lotr_card": "Brushland",
+        "setCode": "LTC"
+    },
+    {
         "mtg_card": "Treefolk Umbra",
         "lotr_card": "Bombadil's Song",
         "setCode": "LTR"
@@ -24886,7 +26546,7 @@
     },
     {
         "mtg_card": "Minsc & Boo, Timeless Heroes",
-        "lotr_card": "Inferno Titan",
+        "lotr_card": "Mirkwood Elk",
         "setCode": "LTC"
     }
 ]
