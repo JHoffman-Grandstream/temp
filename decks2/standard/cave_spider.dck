@@ -2,7 +2,7 @@
 Name=cave_spider
 [Main]
 [Main]
-1 Brandywine Farmer|LTR
+1 Bombadil's Song|LTR
 1 Fall of Gil-galad|LTR
 1 Dunedain Rangers|LTR
 1 Elven Chorus|LTR
@@ -10,8 +10,8 @@ Name=cave_spider
 2 Dunedain Rangers|LTR
 1 Elven Chorus|LTR
 2 Brandywine Farmer|LTR
-1 Orcish Bowmasters|LTR
-1 Cavern-Hoard Dragon|LTC
+1 One Ring to Rule Them All|LTR
+1 Gimli, Mournful Avenger|LTR
 2 Gorbag of Minas Morgul|LTR
 4 Farseek|LTC
 2 Forest|LTR
@@ -22,7 +22,7 @@ Name=cave_spider
 2 Witch-king of Angmar|LTR
 1 Mountain|LTR
 2 Brandywine Farmer|LTR
-1 Explore|LTC
+1 Harmonize|LTC
 2 Fall of Gil-galad|LTR
 1 Swamp|LTR
 4 Great Hall of the Citadel|LTR

@@ -10,16 +10,16 @@ Name=crocodile
 [Dungeon]
 [Main]
 2 Dunedain Rangers|LTR
-4 Rampaging War Mammoth|LTC
+4 Hornet Queen|LTC
 2 Dunedain Rangers|LTR
 2 Forest|LTR
 3 Forest|LTR
-4 Dunland Crebain|LTR
-4 Ent's Fury|LTR
+4 Cirith Ungol Patrol|LTR
+4 Elven Farsight|LTR
 1 Gift of Strands|LTR
-2 Dunland Crebain|LTR
+2 Cirith Ungol Patrol|LTR
 2 Brandywine Farmer|LTR
-4 Eagles of the North|LTR
+4 Troll of Khazad-dum|LTR
 4 Necroblossom Snarl|LTC
 4 Murmuring Bosk|LTC
 2 Brandywine Farmer|LTR
@@ -27,5 +27,5 @@ Name=crocodile
 3 Swamp|LTR
 2 Swamp|LTR
 4 Brandywine Farmer|LTR
-3 Brandywine Farmer|LTR
+3 Bombadil's Song|LTR
 4 Woodland Cemetery|LTC

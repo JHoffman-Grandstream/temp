@@ -10,12 +10,12 @@ Name=Adventure - Low Rakdos
 [Dungeon]
 [Main]
 4 Mount Doom|LTR
-1 Erkenbrand, Lord of Westfold|LTR
+1 Eomer of the Riddermark|LTR
 1 Shagrat, Loot Bearer|LTR
+2 Cirith Ungol Patrol|LTR
 2 Morgul-Knife Wound|LTR
-2 Nasty End|LTR
-1 Boon of the Wish-Giver|LTC
-2 Dunland Crebain|LTR
+1 Ugluk of the White Hand|LTR
+2 Cirith Ungol Patrol|LTR
 2 Dunland Crebain|LTR
 6 Mountain|LTR
 2 Dunland Crebain|LTR
@@ -25,5 +25,5 @@ Name=Adventure - Low Rakdos
 7 Swamp|LTR
 1 Gorbag of Minas Morgul|LTR
 1 Ugluk of the White Hand|LTR
-2 Dunland Crebain|LTR
-2 Claim the Precious|LTR
+2 Cirith Ungol Patrol|LTR
+2 Cirith Ungol Patrol|LTR

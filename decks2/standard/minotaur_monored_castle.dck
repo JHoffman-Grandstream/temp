@@ -9,13 +9,13 @@ Name=minotaur_monored_castle
 [Conspiracy]
 [Dungeon]
 [Main]
-4 Anger|LTC
-4 Gimli, Counter of Kills|LTR
 4 Eomer of the Riddermark|LTR
-2 Fire of Orthanc|LTR
-2 Gloin, Dwarf Emissary|LTR
-4 Fiery Inscription|LTR
-1 Gloin, Dwarf Emissary|LTR
+4 Eomer of the Riddermark|LTR
+4 Eomer of the Riddermark|LTR
+2 Erebor Flamesmith|LTR
+2 Eomer, Marshal of Rohan|LTR
+4 Eomer of the Riddermark|LTR
+1 Eomer, Marshal of Rohan|LTR
 1 Inferno Titan|LTC
 7 Mountain|LTR
 6 Mountain|LTR
@@ -23,6 +23,6 @@ Name=minotaur_monored_castle
 6 Mountain|LTR
 2 Gloin, Dwarf Emissary|LTR
 2 Inferno Titan|LTC
-4 Gloin, Dwarf Emissary|LTR
+4 Eomer, Marshal of Rohan|LTR
 4 Eomer of the Riddermark|LTR
 2 Gloin, Dwarf Emissary|LTR

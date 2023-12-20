@@ -2002,7 +2002,7 @@
     {
         "name": "Sliver Gravemother",
         "type": "Legendary Creature - Sliver",
-        "manaCost": "{W}{U}{B}{R}{G}",
+        "manaCost": "{5}",
         "rarity": "mythic",
         "setCode": "",
         "text": "The \"legend rule\" doesn't apply to Slivers you control.\nEach Sliver creature card in your graveyard has encore {X}, where X is its mana value.\nEncore {5} ({5}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)",
@@ -2022,7 +2022,7 @@
     {
         "name": "Sliver Hivelord",
         "type": "Legendary Creature - Sliver",
-        "manaCost": "{W}{U}{B}{R}{G}",
+        "manaCost": "{5}",
         "rarity": "mythic",
         "setCode": "",
         "text": "Sliver creatures you control have indestructible. (Damage and effects that say \"destroy\" don't destroy them.)",
@@ -2032,7 +2032,7 @@
     {
         "name": "Sliver Overlord",
         "type": "Legendary Creature - Sliver Mutant",
-        "manaCost": "{W}{U}{B}{R}{G}",
+        "manaCost": "{5}",
         "rarity": "rare",
         "setCode": "",
         "text": "{3}: Search your library for a Sliver card, reveal that card, put it into your hand, then shuffle.\n{3}: Gain control of target Sliver. (This effect lasts indefinitely.)",
@@ -2042,7 +2042,7 @@
     {
         "name": "Sliver Queen",
         "type": "Legendary Creature - Sliver",
-        "manaCost": "{W}{U}{B}{R}{G}",
+        "manaCost": "{5}",
         "rarity": "mythic",
         "setCode": "",
         "text": "{2}: Create a 1/1 colorless Sliver creature token.",
@@ -2142,7 +2142,7 @@
     {
         "name": "The First Sliver",
         "type": "Legendary Creature - Sliver",
-        "manaCost": "{W}{U}{B}{R}{G}",
+        "manaCost": "{5}",
         "rarity": "mythic",
         "setCode": "",
         "text": "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)\nSliver spells you cast have cascade.",
@@ -2522,7 +2522,7 @@
     {
         "name": "Maelstrom Archangel",
         "type": "Creature - Angel",
-        "manaCost": "{W}{U}{B}{R}{G}",
+        "manaCost": "{5}",
         "rarity": "mythic",
         "setCode": "",
         "text": "Flying\nWhenever Maelstrom Archangel deals combat damage to a player, you may cast a spell from your hand without paying its mana cost.",
@@ -3762,7 +3762,7 @@
     {
         "name": "Jace, Vryn's Prodigy",
         "type": "Legendary Creature - Human Wizard // Legendary Planeswalker - Jace",
-        "manaCost": "",
+        "manaCost": "{B}",
         "rarity": "mythic",
         "setCode": "",
         "text": "",
@@ -4802,7 +4802,7 @@
     {
         "name": "Liliana, Heretical Healer",
         "type": "Legendary Creature - Human Cleric // Legendary Planeswalker - Liliana",
-        "manaCost": "",
+        "manaCost": "{B}",
         "rarity": "mythic",
         "setCode": "",
         "text": "",
@@ -5065,7 +5065,7 @@
         "manaCost": "{3}",
         "rarity": "mythic",
         "setCode": "",
-        "text": "Whenever you cast a Myr spell, create a 1/1 colorless Myr artifact creature token.\nAt the beginning of combat on your turn, untap each Myr you control.\n{W}{U}{B}{R}{G}, {T}: Put three +1/+1 counters on each Myr you control. Activate only during your turn.",
+        "text": "Whenever you cast a Myr spell, create a 1/1 colorless Myr artifact creature token.\nAt the beginning of combat on your turn, untap each Myr you control.\n{5}, {T}: Put three +1/+1 counters on each Myr you control. Activate only during your turn.",
         "power": "2",
         "toughness": "2"
     },
@@ -6412,7 +6412,7 @@
     {
         "name": "Invasion of New Phyrexia",
         "type": "Battle - Siege // Legendary Planeswalker - Teferi",
-        "manaCost": "",
+        "manaCost": "{X}{W}{B}",
         "rarity": "mythic",
         "setCode": "",
         "text": "",
@@ -35772,7 +35772,7 @@
     {
         "name": "Garth One-Eye",
         "type": "Legendary Creature - Human Wizard",
-        "manaCost": "{W}{U}{B}{R}{G}",
+        "manaCost": "{5}",
         "rarity": "mythic",
         "setCode": "",
         "text": "{T}: Choose a card name that hasn't been chosen from among Disenchant, Braingeyser, Terror, Shivan Dragon, Regrowth, and Black Lotus. Create a copy of the card with the chosen name. You may cast the copy. (You still pay its costs.)",
@@ -35802,7 +35802,7 @@
     {
         "name": "Jared Carthalion",
         "type": "Legendary Planeswalker - Jared",
-        "manaCost": "{W}{U}{B}{R}{G}",
+        "manaCost": "{5}",
         "rarity": "mythic",
         "setCode": "",
         "text": "+1: Create a 3/3 Kavu creature token with trample that's all colors.\n\u22123: Choose up to two target creatures. For each of them, put a number of +1/+1 counters on it equal to the number of colors it is.\n\u22126: Return target multicolored card from your graveyard to your hand. If that card was all colors, draw a card and create two Treasure tokens.\nJared Carthalion can be your commander.",
@@ -35815,14 +35815,14 @@
         "manaCost": "{1}{U}{R}{W}",
         "rarity": "rare",
         "setCode": "",
-        "text": "Flying\nYou may pay {W}{U}{B}{R}{G} rather than pay the mana cost for spells that you cast.",
+        "text": "Flying\nYou may pay {5} rather than pay the mana cost for spells that you cast.",
         "power": "4",
         "toughness": "3"
     },
     {
         "name": "Jodah, the Unifier",
         "type": "Legendary Creature - Human Wizard",
-        "manaCost": "{W}{U}{B}{R}{G}",
+        "manaCost": "{5}",
         "rarity": "mythic",
         "setCode": "",
         "text": "Legendary creatures you control get +X/+X, where X is the number of legendary creatures you control.\nWhenever you cast a legendary spell from your hand, exile cards from the top of your library until you exile a legendary nonland card with lesser mana value. You may cast that card without paying its mana cost. Put the rest on the bottom of your library in a random order.",
@@ -37622,7 +37622,7 @@
     {
         "name": "Iridian Maelstrom",
         "type": "Sorcery",
-        "manaCost": "{W}{U}{B}{R}{G}",
+        "manaCost": "{5}",
         "rarity": "rare",
         "setCode": "",
         "text": "Destroy each creature that isn't all colors.",
@@ -39335,7 +39335,7 @@
         "manaCost": "{7}",
         "rarity": "mythic",
         "setCode": "",
-        "text": "Changeling (This card is every creature type.)\nAs Morophon, the Boundless enters the battlefield, choose a creature type.\nSpells of the chosen type you cast cost {W}{U}{B}{R}{G} less to cast. This effect reduces only the amount of colored mana you pay.\nOther creatures you control of the chosen type get +1/+1.",
+        "text": "Changeling (This card is every creature type.)\nAs Morophon, the Boundless enters the battlefield, choose a creature type.\nSpells of the chosen type you cast cost {5} less to cast. This effect reduces only the amount of colored mana you pay.\nOther creatures you control of the chosen type get +1/+1.",
         "power": "6",
         "toughness": "6"
     },
@@ -47012,7 +47012,7 @@
     {
         "name": "Sliver Legion",
         "type": "Legendary Creature - Sliver",
-        "manaCost": "{W}{U}{B}{R}{G}",
+        "manaCost": "{5}",
         "rarity": "mythic",
         "setCode": "",
         "text": "All Sliver creatures get +1/+1 for each other Sliver on the battlefield.",
@@ -47132,7 +47132,7 @@
     {
         "name": "Slivdrazi Monstrosity",
         "type": "Legendary Creature - Sliver Eldrazi",
-        "manaCost": "{C}{W}{U}{B}{R}{G}",
+        "manaCost": "{C}{5}",
         "rarity": "rare",
         "setCode": "",
         "text": "Eldrazi you control are Slivers in addition to their other types.\nSlivers you control have devoid and annihilator 1.\n{3}: Create a 1/1 colorless Eldrazi Sliver creature token. It has \"Sacrifice this creature: Add {C}.\"",

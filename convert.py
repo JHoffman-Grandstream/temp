@@ -12,8 +12,13 @@ def load_json_file(filename):
 
 def get_mana_value(mana_cost):
     """Calculate the total mana value from a mana cost string, accounting for both numeric and color symbols."""
+    if not mana_cost:
+        # If mana_cost is an empty string, treat it as zero mana
+        return 0
+
     mana_value = 0
     numeric_value = ''
+
     for char in mana_cost:
         if char.isdigit():
             numeric_value += char
@@ -38,14 +43,23 @@ def is_planeswalker(card_type):
     return 'Planeswalker' in card_type
 
 def extract_unique_colors(mana_cost):
-    """Extract unique colors from the mana cost, treating non-standard colors as colorless ('C'), and ignoring '{X}'."""
+    """Extract unique colors from the mana cost, treating hybrid mana as either color, and ignoring '{X}'."""
     standard_colors = {'B', 'W', 'U', 'R', 'G'}
     colors = set()
-    for char in mana_cost:
-        if char in standard_colors:
-            colors.add(char)
-        elif char.isalpha() and char != 'X':
+
+    # Use a regular expression to find all occurrences of color symbols and hybrid symbols
+    color_symbols = re.findall(r'\{([BWURGCX2/\)]+)\}', mana_cost)
+
+    for symbol in color_symbols:
+        if symbol in standard_colors:
+            colors.add(symbol)
+        elif '/' in symbol:  # Handle hybrid mana symbols like {G/U}
+            for char in symbol:
+                if char in standard_colors:
+                    colors.add(char)
+        elif symbol.isalpha() and symbol != 'X':
             colors.add('C')
+
     return colors
 
 def is_land(card_type):
@@ -70,11 +84,17 @@ def find_strong_rare_creature_or_enchantment(lotr_cards, colors, card_type, mtg_
     highest_power_toughness = -1
     rarities = ['mythic', 'rare', 'uncommon']
 
+    # Determine if the MTG card is colorless
+    is_colorless = colors == {'C'} or not colors
+
     for rarity in rarities:
         for card in lotr_cards:
             if card['type'].startswith(card_type) and card['rarity'] == rarity:
                 lotr_mana_cost = card.get('manaCost', '')
-                if all(color in mtg_mana_cost for color in colors) and all(color in lotr_mana_cost for color in colors):
+                lotr_colors = extract_unique_colors(lotr_mana_cost)
+
+                # Check color match; for colorless MTG cards, find colorless LOTR cards
+                if (is_colorless and lotr_colors == {'C'}) or (not is_colorless and all(color in lotr_colors for color in colors)):
                     if 'Creature' in card_type:
                         power_toughness = sum(int(value) for value in [card.get('power', '0'), card.get('toughness', '0')] if value.isdigit())
                     else:
@@ -107,20 +127,13 @@ def find_land_mana(lotr_cards, mtg_card):
     mtg_land_mana = extract_land_mana(mtg_card.get('text', ''))
     matching_land = None
 
-    # if "Snow-Covered Plains" in mtg_card['name']:
-    #     print("Processing Snow-Covered Plains...")
-    #     print("MTG Card Name:", mtg_card['name'])
-
     basic_lands = ["Plains", "Forest", "Mountain", "Swamp", "Island"]
 
     # Check if the MTG card name is a basic land or its Snow-Covered version
     if mtg_card['name'] in basic_lands or mtg_card['name'].replace("Snow-Covered ", "") in basic_lands:
         # Directly use the basic land name for matching
         matching_land_name = mtg_card['name'].replace("Snow-Covered ", "")
-        matching_land = next((card for card in lotr_cards if card['name'] == matching_land_name), None)        
-        # if "Snow-Covered Plains" in mtg_card['name']:
-        #     print("Match found for Snow-Covered Plains:")
-        #     print("Matching Land Card:", matching_land)
+        matching_land = next((card for card in lotr_cards if card['name'] == matching_land_name), None)
     else:
         for num_colors in range(len(mtg_land_mana), 0, -1):
             for card in lotr_cards:
@@ -130,38 +143,25 @@ def find_land_mana(lotr_cards, mtg_card):
                     matching_colors = set(mtg_land_mana) & set(lotr_land_mana)
                     if len(matching_colors) == num_colors:
                         matching_land = card
-                        # if "Snow-Covered Plains" in mtg_card['name']:
-                        #     print("Match found for Snow-Covered Plains:")
-                        #     print("Matching Land Card:", matching_land)
                         break
             if matching_land:
                 break
 
     if not matching_land:
-        # if "Snow-Covered Plains" in mtg_card['name']:
-        #     print("No match found for Snow-Covered Plains in the first check.")
         for color in mtg_land_mana:
             for card in lotr_cards:
                 if is_land(card['type']):
                     lotr_land_text = card.get('text', '')
                     if color in extract_land_mana(lotr_land_text):
                         matching_land = card
-                        # if "Snow-Covered Plains" in mtg_card['name']:
-                        #     print("Match found for Snow-Covered Plains:")
-                        #     print("Matching Land Card:", matching_land)
                         break
             if matching_land:
                 break
 
     if not matching_land:
-        # if "Snow-Covered Plains" in mtg_card['name']:
-        #     print("No match found for Snow-Covered Plains in the second check.")
         for card in lotr_cards:
             if is_land(card['type']) and 'C' in extract_land_mana(card.get('text', '')):
                 matching_land = card
-                # if "Snow-Covered Plains" in mtg_card['name']:
-                #     print("Match found for Snow-Covered Plains:")
-                #     print("Matching Land Card:", matching_land)
                 break
 
     if matching_land is None:
@@ -203,6 +203,8 @@ def find_similar_cards(mtg_cards, lotr_cards, fuzziness):
         if not exact_match_found:
             if is_planeswalker(mtg_card['type']):
                 colors = extract_unique_colors(mtg_card.get('manaCost', ''))
+                if not colors:  # If the planeswalker is colorless
+                    colors.add('W')  # Treat it as white
                 if 'C' in colors and len(colors) > 1:
                     colors.discard('C')
                 best_match = find_strong_rare_creature_or_enchantment(lotr_cards, colors, "Creature", mtg_card.get('manaCost', ''))
@@ -226,10 +228,18 @@ def find_similar_cards(mtg_cards, lotr_cards, fuzziness):
             else:
                 card_type = mtg_card['type']
 
+                mtg_colors = extract_unique_colors(mtg_card.get('manaCost', ''))
+
                 match_found = False
                 while not best_match and fuzziness > 0:
                     best_lotro_card_for_criteria = None
                     for lotr_card in lotr_cards:
+                        lotr_colors = extract_unique_colors(lotr_card.get('manaCost', ''))
+
+                        # Absolute check for color integrity
+                        if not mtg_colors.issuperset(lotr_colors):
+                            continue
+
                         type_match = similar(card_type, lotr_card['type'], fuzziness)
                         mtg_mana_value = get_mana_value(mtg_card.get('manaCost', ''))
                         lotr_mana_value = get_mana_value(lotr_card.get('manaCost', ''))

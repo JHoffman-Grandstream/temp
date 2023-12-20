@@ -10,21 +10,21 @@ Name=pirate_captain
 [Dungeon]
 [Main]
 2 Sauron, Lord of the Rings|LTC
-1 Gloin, Dwarf Emissary|LTR
+1 Eomer, Marshal of Rohan|LTR
 4 Mount Doom|LTR
-2 Rampaging War Mammoth|LTC
+2 Riders of the Mark|LTR
 4 Great Hall of the Citadel|LTR
-2 Deceive the Messenger|LTR
-1 Gloin, Dwarf Emissary|LTR
+2 Bewitching Leechcraft|LTR
+1 Eomer, Marshal of Rohan|LTR
 2 Council's Deliberation|LTR
 2 Gloin, Dwarf Emissary|LTR
 2 Corsairs of Umbar|LTC
-1 Erebor Flamesmith|LTR
-1 Gandalf the Grey|LTR
+1 Breaking of the Fellowship|LTR
+1 Summons of Saruman|LTC
 2 Ugluk of the White Hand|LTR
-2 Gloin, Dwarf Emissary|LTR
+2 Eomer, Marshal of Rohan|LTR
 2 Ugluk of the White Hand|LTR
-2 One Ring to Rule Them All|LTR
+2 Isildur's Fateful Strike|LTR
 1 Abyssal Persecutor|LTC
 1 Horn of the Mark|LTR
 2 Dunland Crebain|LTR
@@ -32,17 +32,17 @@ Name=pirate_captain
 1 Rangers of Ithilien|LTR
 1 Island|LTR
 1 Island|LTR
-2 Gloin, Dwarf Emissary|LTR
-2 Gorbag of Minas Morgul|LTR
-2 Council's Deliberation|LTR
-2 Claim the Precious|LTR
+2 Eomer, Marshal of Rohan|LTR
+2 Gollum, Patient Plotter|LTR
+2 Bill Ferny, Bree Swindler|LTR
+2 Cirith Ungol Patrol|LTR
 1 Mountain|LTR
 1 Mountain|LTR
-2 Deceive the Messenger|LTR
+2 Captain of Umbar|LTR
 1 The Watcher in the Water|LTR
-1 Gorbag of Minas Morgul|LTR
+1 Gollum, Patient Plotter|LTR
 4 Great Hall of the Citadel|LTR
-2 Combat Celebrant|LTC
+2 Inferno Titan|LTC
 2 Raise the Palisade|LTC
 1 The Mouth of Sauron|LTR
 4 Great Hall of the Citadel|LTR
@@ -53,8 +53,8 @@ Name=pirate_captain
 2 Oliphaunt|LTR
 1 Horn of the Mark|LTR
 4 Choked Estuary|LTC
-2 Dreadful as the Storm|LTR
+2 Captain of Umbar|LTR
 4 Crumbling Necropolis|LTC
-2 Boon of the Wish-Giver|LTC
+2 March from the Black Gate|LTR
 4 Crumbling Necropolis|LTC
-1 Rangers of Ithilien|LTR
+1 Lost Isle Calling|LTR

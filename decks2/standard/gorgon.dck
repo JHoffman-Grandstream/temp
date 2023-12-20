@@ -10,8 +10,8 @@ Name=Gorgon
 [Dungeon]
 [Main]
 2 Brandywine Farmer|LTR
-2 Dunland Crebain|LTR
-1 Rampaging War Mammoth|LTC
+2 Cirith Ungol Patrol|LTR
+1 Hornet Queen|LTC
 2 Brandywine Farmer|LTR
 1 Bitter Downfall|LTR
 1 Bitter Downfall|LTR
@@ -20,7 +20,7 @@ Name=Gorgon
 1 Forest|LTR
 2 Forest|LTR
 1 Forest|LTR
-4 Oliphaunt|LTR
+4 Mirkwood Bats|LTR
 1 Murmuring Bosk|LTC
 1 Murmuring Bosk|LTC
 1 Murmuring Bosk|LTC
@@ -32,8 +32,8 @@ Name=Gorgon
 1 Savvy Hunter|LTC
 1 Brandywine Farmer|LTR
 1 Lembas|LTR
-1 Dunland Crebain|LTR
-4 Eagles of the North|LTR
+1 Cirith Ungol Patrol|LTR
+4 Troll of Khazad-dum|LTR
 1 Smeagol, Helpful Guide|LTR
 2 Rogue's Passage|LTC
 1 Smeagol, Helpful Guide|LTR
@@ -44,7 +44,7 @@ Name=Gorgon
 1 Swamp|LTR
 1 Lobelia Sackville-Baggins|LTR
 3 Dunland Crebain|LTR
-1 Blasphemous Act|LTC
+1 Decree of Pain|LTC
 1 Savvy Hunter|LTC
 1 Dunedain Rangers|LTR
 1 One Ring to Rule Them All|LTR

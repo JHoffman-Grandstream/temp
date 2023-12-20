@@ -2,9 +2,9 @@
 Name=Yeti
 [Main]
 [Main]
-1 Travel Through Caradhras|LTC
-1 Captain of Umbar|LTR
-3 Gimli's Fury|LTR
+1 Legolas, Master Archer|LTR
+1 Bewitching Leechcraft|LTR
+3 Cast into the Fire|LTR
 2 Bewitching Leechcraft|LTR
 4 Bewitching Leechcraft|LTR
 2 Mines of Moria|LTR
@@ -14,13 +14,13 @@ Name=Yeti
 1 Brandywine Farmer|LTR
 1 Dunedain Rangers|LTR
 1 Gloin, Dwarf Emissary|LTR
-2 Erebor Flamesmith|LTR
+2 Breaking of the Fellowship|LTR
 1 Breaking of the Fellowship|LTR
 1 Bewitching Leechcraft|LTR
 4 Flooded Grove|LTC
 1 Brandywine Farmer|LTR
-4 Gimli's Fury|LTR
-3 Captain of Umbar|LTR
+4 Gimli's Axe|LTR
+3 Bewitching Leechcraft|LTR
 1 Forest|LTR
 1 Forest|LTR
 1 Forest|LTR
@@ -34,8 +34,8 @@ Name=Yeti
 2 Mountain|LTR
 1 Mountain|LTR
 1 Mountain|LTR
-1 Erebor Flamesmith|LTR
-1 Call for Aid|LTC
+1 Breaking of the Fellowship|LTR
+1 Gloin, Dwarf Emissary|LTR
 4 Crumbling Necropolis|LTC
 1 Fall of Gil-galad|LTR
 1 Bombadil's Song|LTR
