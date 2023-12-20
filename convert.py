@@ -60,7 +60,7 @@ def find_highest_mana_card_of_color(lotr_cards, colors):
                 best_card = card
     return best_card
 
-def find_strong_rare_creature_or_enchantment(lotr_cards, colors, card_type):
+def find_strong_rare_creature_or_enchantment(lotr_cards, colors, card_type, mtg_mana_cost):
     """Find a strong creature or enchantment from the same colors, prioritizing mythic, then rare, then uncommon rarity."""
     best_card = None
     highest_power_toughness = -1
@@ -68,15 +68,18 @@ def find_strong_rare_creature_or_enchantment(lotr_cards, colors, card_type):
 
     for rarity in rarities:
         for card in lotr_cards:
-            if card['type'].startswith(card_type) and card['rarity'] == rarity and all(color in card.get('manaCost', '') for color in colors):
-                if 'Creature' in card_type:
-                    power_toughness = sum(int(value) for value in [card.get('power', '0'), card.get('toughness', '0')] if value.isdigit())
-                else:
-                    power_toughness = 0  # Enchantments don't have power/toughness
+            if card['type'].startswith(card_type) and card['rarity'] == rarity:
+                lotr_mana_cost = card.get('manaCost', '')
+                # Check if the LOTR card's mana cost contains only the colors found in the MTG card's mana cost
+                if all(color in mtg_mana_cost for color in colors) and all(color in lotr_mana_cost for color in colors):
+                    if 'Creature' in card_type:
+                        power_toughness = sum(int(value) for value in [card.get('power', '0'), card.get('toughness', '0')] if value.isdigit())
+                    else:
+                        power_toughness = 0  # Enchantments don't have power/toughness
 
-                if power_toughness > highest_power_toughness:
-                    highest_power_toughness = power_toughness
-                    best_card = card
+                    if power_toughness > highest_power_toughness:
+                        highest_power_toughness = power_toughness
+                        best_card = card
 
         if best_card:
             break  # Stop searching if a match is found in the current rarity
@@ -141,107 +144,116 @@ def find_land_mana(lotr_cards, mtg_card_text):
     return matching_land
 
 def similar_criteria_check(lotr_card, mtg_card, fuzziness):
-        card_type = mtg_card['type']
-        type_match = similar(card_type, lotr_card['type'], fuzziness)
-        mtg_mana_value = get_mana_value(mtg_card.get('manaCost', ''))
-        lotr_mana_value = get_mana_value(lotr_card.get('manaCost', ''))
-        mana_match = mtg_mana_value == lotr_mana_value
-        power_toughness_match = similar(f"{mtg_card.get('power', '')}/{mtg_card.get('toughness', '')}",
-                                        f"{lotr_card.get('power', '')}/{lotr_card.get('toughness', '')}", fuzziness)
-        return type_match and rarity_match(mtg_card['rarity'], lotr_card['rarity']) and power_toughness_match and mana_match
+    card_type = mtg_card['type']
+    type_match = similar(card_type, lotr_card['type'], fuzziness)
+    mtg_mana_cost = mtg_card.get('manaCost', '')
+    lotr_mana_cost = lotr_card.get('manaCost', '')
+    mana_match = is_mana_color_similar(mtg_mana_cost, lotr_mana_cost)  # Add this line for mana color similarity
+    mtg_mana_value = get_mana_value(mtg_mana_cost)
+    lotr_mana_value = get_mana_value(lotr_mana_cost)
+    power_toughness_match = similar(f"{mtg_card.get('power', '')}/{mtg_card.get('toughness', '')}",
+                                    f"{lotr_card.get('power', '')}/{lotr_card.get('toughness', '')}", fuzziness)
+    return type_match and rarity_match(mtg_card['rarity'], lotr_card['rarity']) and power_toughness_match and mana_match
+
+def is_mana_color_similar(mtg_mana_cost, lotr_mana_cost):
+    mtg_colors = extract_unique_colors(mtg_mana_cost)
+    lotr_colors = extract_unique_colors(lotr_mana_cost)
+
+    # Ensure that the colors match between the two cards
+    return mtg_colors == lotr_colors
 
 def find_similar_cards(mtg_cards, lotr_cards, fuzziness):
-    """Find similar cards between MTG and LOTR datasets with increasing fuzziness."""
     global used_cards
     converted_cards = []
     for mtg_card in mtg_cards:
+        exact_match_found = False  # Flag to check if an exact name match is found
         best_match = None
-        if is_planeswalker(mtg_card['type']):
-            colors = extract_unique_colors(mtg_card.get('manaCost', ''))
-            if 'C' in colors and len(colors) > 1:
-                colors.discard('C') # Discard the colorless component if other colors are present
-            best_match = find_strong_rare_creature_or_enchantment(lotr_cards, colors, "Creature")
-            if not best_match and len(colors) > 1:
-                # Try to find a match for each individual color
-                for color in colors:
-                    best_match = find_strong_rare_creature_or_enchantment(lotr_cards, {color}, "Creature")
-                    if best_match:
-                        break
+        for lotr_card in lotr_cards:
+            if mtg_card['name'] == lotr_card['name']:
+                # Exact name match found, prioritize using LOTR version
+                exact_match_found = True
+                best_match = lotr_card
+                break
 
-            if not best_match:
-                print(f"No match found for the planeswalker '{mtg_card['name']}' with any of the colors {colors}")
-                sys.exit(1)  # Exit on error
-        elif is_land(mtg_card['type']):
-            matching_land = find_land_mana(lotr_cards, mtg_card.get('text', ''))
-            if not matching_land:
-                print(f"No match found for the Land card '{mtg_card['name']}'")
-                sys.exit(1)  # Exit on error
-        else:
-            card_type = mtg_card['type']
-
-            match_found = False  # Flag to check if a match is found
-            while not best_match and fuzziness > 0:
-                best_lotro_card_for_criteria = None  # The best matching LOTR card so far
-                for lotr_card in lotr_cards:
-                    # Check criteria with current fuzziness
-                    type_match = similar(card_type, lotr_card['type'], fuzziness)
-                    mtg_mana_value = get_mana_value(mtg_card.get('manaCost', ''))
-                    lotr_mana_value = get_mana_value(lotr_card.get('manaCost', ''))
-                    mana_match = mtg_mana_value == lotr_mana_value
-                    power_toughness_match = similar(f"{mtg_card.get('power', '')}/{mtg_card.get('toughness', '')}",
-                                                    f"{lotr_card.get('power', '')}/{lotr_card.get('toughness', '')}", fuzziness)
-
-                    if type_match and rarity_match(mtg_card['rarity'], lotr_card['rarity']) and power_toughness_match:
-                        if mana_match:
-                            best_match = lotr_card
-                            match_found = True  # A direct match was found
+        if not exact_match_found:
+            # Continue with the existing matching logic for non-exact name matches
+            if is_planeswalker(mtg_card['type']):
+                colors = extract_unique_colors(mtg_card.get('manaCost', ''))
+                if 'C' in colors and len(colors) > 1:
+                    colors.discard('C')
+                best_match = find_strong_rare_creature_or_enchantment(lotr_cards, colors, "Creature", mtg_card.get('manaCost', ''))
+                if not best_match and len(colors) > 1:
+                    for color in colors:
+                        best_match = find_strong_rare_creature_or_enchantment(lotr_cards, {color}, "Creature", mtg_card.get('manaCost', ''))
+                        if best_match:
                             break
-                        else:
-                            # Check if this LOTR card is the best match so far for the given criteria
-                            if best_lotro_card_for_criteria is None or lotr_mana_value > get_mana_value(best_lotro_card_for_criteria.get('manaCost', '')):
-                                best_lotro_card_for_criteria = lotr_card
 
                 if not best_match:
-                    if best_lotro_card_for_criteria:
-                        # Use the best matching LOTR card found so far for the given criteria
-                        best_match = best_lotro_card_for_criteria
-                        match_found = True
-                    else:
-                        # Decrease fuzziness to expand search
-                        fuzziness -= 0.1
+                    print(f"No match found for the planeswalker '{mtg_card['name']}' with any of the colors {colors}")
+                    sys.exit(1)
+            elif is_land(mtg_card['type']):
+                matching_land = find_land_mana(lotr_cards, mtg_card.get('text', ''))
+                if not matching_land:
+                    print(f"No match found for the Land card '{mtg_card['name']}'")
+                    sys.exit(1)
+            else:
+                card_type = mtg_card['type']
 
-            if not best_match:
-                # If no match found, explain why and print the criteria that might have failed
-                criteria_values = {
-                    'Card Type': card_type,
-                    'Mana Cost': mtg_card.get('manaCost', ''),
-                    'Rarity': mtg_card['rarity'],
-                    'Power/Toughness': f"{mtg_card.get('power', '')}/{mtg_card.get('toughness', '')}"
-                }
-                failed_criteria = []  # List to store the failed criteria
-                if not type_match:
-                    failed_criteria.append("Card Type")
-                if not mana_match:
-                    # Check if it's a high-cost or very high-cost card and explain why
-                    if mtg_mana_value > 10:
-                        if mtg_mana_value > 15 and lotr_mana_value <= 15:
-                            failed_criteria.append("Mana Cost (Very High Cost)")
+                match_found = False
+                while not best_match and fuzziness > 0:
+                    best_lotro_card_for_criteria = None
+                    for lotr_card in lotr_cards:
+                        type_match = similar(card_type, lotr_card['type'], fuzziness)
+                        mtg_mana_value = get_mana_value(mtg_card.get('manaCost', ''))
+                        lotr_mana_value = get_mana_value(lotr_card.get('manaCost', ''))
+                        mana_match = is_mana_color_similar(mtg_card.get('manaCost', ''), lotr_card.get('manaCost', ''))
+                        power_toughness_match = similar(f"{mtg_card.get('power', '')}/{mtg_card.get('toughness', '')}",
+                                                        f"{lotr_card.get('power', '')}/{lotr_card.get('toughness', '')}", fuzziness)
+                        if type_match and rarity_match(mtg_card['rarity'], lotr_card['rarity']) and power_toughness_match:
+                            if mana_match:
+                                best_match = lotr_card
+                                match_found = True
+                                break
+                            else:
+                                if best_lotro_card_for_criteria is None or lotr_mana_value > get_mana_value(
+                                        best_lotro_card_for_criteria.get('manaCost', '')):
+                                    best_lotro_card_for_criteria = lotr_card
+                    if not best_match:
+                        if best_lotro_card_for_criteria:
+                            best_match = best_lotro_card_for_criteria
+                            match_found = True
                         else:
-                            failed_criteria.append("Mana Cost (High Cost)")
-                    else:
-                        failed_criteria.append("Mana Cost")
-                if not rarity_match(mtg_card['rarity'], lotr_card['rarity']):
-                    failed_criteria.append("Rarity")
-                if not power_toughness_match:
-                    failed_criteria.append("Power/Toughness")
+                            fuzziness -= 0.1
 
-                print(f"No match found for '{mtg_card['name']}' with the following criteria: {criteria_values}")
-                print(f"Failed criteria: {', '.join(failed_criteria)}")
-                sys.exit(1)  # Exit on error
+                if not best_match:
+                    criteria_values = {
+                        'Card Type': card_type,
+                        'Mana Cost': mtg_card.get('manaCost', ''),
+                        'Rarity': mtg_card['rarity'],
+                        'Power/Toughness': f"{mtg_card.get('power', '')}/{mtg_card.get('toughness', '')}"
+                    }
+                    failed_criteria = []
+                    if not type_match:
+                        failed_criteria.append("Card Type")
+                    if not mana_match:
+                        if mtg_mana_value > 10:
+                            if mtg_mana_value > 15 and lotr_mana_value <= 15:
+                                failed_criteria.append("Mana Cost (Very High Cost)")
+                            else:
+                                failed_criteria.append("Mana Cost (High Cost)")
+                        else:
+                            failed_criteria.append("Mana Cost")
+                    if not rarity_match(mtg_card['rarity'], lotr_card['rarity']):
+                        failed_criteria.append("Rarity")
+                    if not power_toughness_match:
+                        failed_criteria.append("Power/Toughness")
 
-        if best_match:            
+                    print(f"No match found for '{mtg_card['name']}' with the following criteria: {criteria_values}")
+                    print(f"Failed criteria: {', '.join(failed_criteria)}")
+                    sys.exit(1)
+
+        if best_match:
             if best_match['name'] in used_cards:
-                # Find another card if the best match was already used
                 alternative_match = None
                 for alt_card in lotr_cards:
                     if alt_card != best_match and similar_criteria_check(alt_card, mtg_card, fuzziness):
@@ -253,10 +265,11 @@ def find_similar_cards(mtg_cards, lotr_cards, fuzziness):
             converted_cards.append({
                 'mtg_card': mtg_card['name'],
                 'lotr_card': best_match['name'],
-                'setCode': best_match.get('setCode', '')  # Include the set information
+                'setCode': best_match.get('setCode', '')
             })
 
     return converted_cards
+
 
 def is_land(card_type):
     """Check if the card type includes 'Land'."""
