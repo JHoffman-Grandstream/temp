@@ -111,31 +111,62 @@ def find_similar_cards(mtg_cards, lotr_cards, fuzziness):
 
             match_found = False  # Flag to check if a match is found
             while not best_match and fuzziness > 0:
+                best_lotro_card_for_criteria = None  # The best matching LOTR card so far
                 for lotr_card in lotr_cards:
                     # Check criteria with current fuzziness
                     type_match = similar(card_type, lotr_card['type'], fuzziness)
-                    mana_match = get_mana_value(mtg_card.get('manaCost', '')) == get_mana_value(lotr_card.get('manaCost', ''))
+                    mtg_mana_value = get_mana_value(mtg_card.get('manaCost', ''))
+                    lotr_mana_value = get_mana_value(lotr_card.get('manaCost', ''))
+                    mana_match = mtg_mana_value == lotr_mana_value
                     power_toughness_match = similar(f"{mtg_card.get('power', '')}/{mtg_card.get('toughness', '')}",
                                                     f"{lotr_card.get('power', '')}/{lotr_card.get('toughness', '')}", fuzziness)
 
-                    if type_match and mana_match and rarity_match(mtg_card['rarity'], lotr_card['rarity']) and power_toughness_match:
-                        best_match = lotr_card
-                        match_found = True  # A match was found
-                        break
+                    if type_match and rarity_match(mtg_card['rarity'], lotr_card['rarity']) and power_toughness_match:
+                        if mana_match:
+                            best_match = lotr_card
+                            match_found = True  # A direct match was found
+                            break
+                        else:
+                            # Check if this LOTR card is the best match so far for the given criteria
+                            if best_lotro_card_for_criteria is None or lotr_mana_value > get_mana_value(best_lotro_card_for_criteria.get('manaCost', '')):
+                                best_lotro_card_for_criteria = lotr_card
 
                 if not best_match:
-                    # Decrease fuzziness to expand search
-                    fuzziness -= 0.1
+                    if best_lotro_card_for_criteria:
+                        # Use the best matching LOTR card found so far for the given criteria
+                        best_match = best_lotro_card_for_criteria
+                        match_found = True
+                    else:
+                        # Decrease fuzziness to expand search
+                        fuzziness -= 0.1
 
             if not best_match:
-                # If no match found, explain why and print the criteria used
+                # If no match found, explain why and print the criteria that might have failed
                 criteria_values = {
                     'Card Type': card_type,
                     'Mana Cost': mtg_card.get('manaCost', ''),
                     'Rarity': mtg_card['rarity'],
                     'Power/Toughness': f"{mtg_card.get('power', '')}/{mtg_card.get('toughness', '')}"
                 }
+                failed_criteria = []  # List to store the failed criteria
+                if not type_match:
+                    failed_criteria.append("Card Type")
+                if not mana_match:
+                    # Check if it's a high-cost or very high-cost card and explain why
+                    if mtg_mana_value > 10:
+                        if mtg_mana_value > 15 and lotr_mana_value <= 15:
+                            failed_criteria.append("Mana Cost (Very High Cost)")
+                        else:
+                            failed_criteria.append("Mana Cost (High Cost)")
+                    else:
+                        failed_criteria.append("Mana Cost")
+                if not rarity_match(mtg_card['rarity'], lotr_card['rarity']):
+                    failed_criteria.append("Rarity")
+                if not power_toughness_match:
+                    failed_criteria.append("Power/Toughness")
+
                 print(f"No match found for '{mtg_card['name']}' with the following criteria: {criteria_values}")
+                print(f"Failed criteria: {', '.join(failed_criteria)}")
                 sys.exit(1)  # Exit on error
 
         if best_match:
