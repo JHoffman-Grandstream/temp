@@ -2,27 +2,27 @@
 Name=human_soldier_token
 [Main]
 [Main]
-1 Hobbit's Sting
-1 Landroval, Horizon Witness
-1 Shelob, Child of Ungoliant
-1 Radagast the Brown
-1 Bill the Pony
-1 Shelob, Child of Ungoliant
-1 Flowering of the White Tree
-1 Boromir, Warden of the Tower
-1 Hobbit's Sting
-1 The Bath Song
-1 Hobbit's Sting
-1 Samwise the Stouthearted
-1 Barrow-Blade
-1 Eowyn, Lady of Rohan
-1 Sauron, the Necromancer
-1 Radagast the Brown
-1 Banish from Edoras
-1 Rangers of Ithilien
-1 Forge Anew
-1 Hobbit's Sting
-2 Eastfarthing Farmer
+1 Fog on the Barrow-Downs|LTR
+1 Eowyn, Lady of Rohan|LTR
+1 Frodo, Sauron's Bane|LTR
+1 Gandalf the White|LTR
+1 Eowyn, Lady of Rohan|LTR
+1 Flowering of the White Tree|LTR
+1 Dawn of Hope|LTC
+1 Frodo, Sauron's Bane|LTR
+1 Fog on the Barrow-Downs|LTR
+1 Reprieve|LTR
+1 Fog on the Barrow-Downs|LTR
+1 Eowyn, Lady of Rohan|LTR
+1 Eowyn, Lady of Rohan|LTR
+1 Barrow-Blade|LTR
+1 Frodo, Sauron's Bane|LTR
+1 Saruman of Many Colors|LTR
+1 Now for Wrath, Now for Ruin!|LTR
+1 Frodo, Sauron's Bane|LTR
+1 Forge Anew|LTR
+1 Fog on the Barrow-Downs|LTR
+2 Eagles of the North|LTR
 1 Plains|LTR
 3 Plains|LTR
 2 Plains|LTR
@@ -36,9 +36,9 @@ Name=human_soldier_token
 2 Plains|LTR
 2 Plains|LTR
 3 Plains|LTR
-1 Goldberry, River-Daughter
-1 Bill the Pony
-2 Saruman's Trickery
-1 Esquire of the King
-4 Dunedain Blade
-4 Eastfarthing Farmer
+1 Frodo, Sauron's Bane|LTR
+1 Eowyn, Lady of Rohan|LTR
+2 Reprieve|LTR
+1 Eagles of the North|LTR
+4 Eagles of the North|LTR
+4 Eagles of the North|LTR

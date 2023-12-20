@@ -9,16 +9,16 @@ Name=wanderinggiant
 [Conspiracy]
 [Dungeon]
 [Main]
-2 Stalwarts of Osgiliath
-2 Bonecrusher Giant|CLB|1
-3 Eastfarthing Farmer
-3 Dunedain Blade
-2 War of the Last Alliance
-1 Fear, Fire, Foes!
-4 Protector of Gondor
-4 Protector of Gondor
-4 War of the Last Alliance
-2 Protector of Gondor
+2 Cast into the Fire|LTR
+2 Eomer, Marshal of Rohan|LTR
+3 Cast into the Fire|LTR
+3 Cast into the Fire|LTR
+2 Eomer, Marshal of Rohan|LTR
+1 Foray of Orcs|LTR
+4 Eagles of the North|LTR
+4 Cast into the Fire|LTR
+4 Frodo, Sauron's Bane|LTR
+2 Cast into the Fire|LTR
 5 Mountain|LTR
 4 Mountain|LTR
 3 Mountain|LTR
@@ -27,6 +27,6 @@ Name=wanderinggiant
 1 Plains|LTR
 2 Plains|LTR
 4 Plains|LTR
-3 Escape from Orthanc
-2 Eastfarthing Farmer
-4 Landroval, Horizon Witness
+3 Gimli's Fury|LTR
+2 Erebor Flamesmith|LTR
+4 Eomer of the Riddermark|LTR

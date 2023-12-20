@@ -2,16 +2,16 @@
 Name=wraithswampwalk
 [Main]
 [Main]
-4 Eagles of the North
-4 Eastfarthing Farmer
-4 Stalwarts of Osgiliath
-4 Bill the Pony
-4 East-Mark Cavalier
-4 Protector of Gondor
-4 Escape from Orthanc
-2 Horses of the Bruinen
-2 Isolation at Orthanc
-4 Landroval, Horizon Witness
+4 Dunland Crebain|LTR
+4 Dunland Crebain|LTR
+4 Dunland Crebain|LTR
+4 Gorbag of Minas Morgul|LTR
+4 Dunland Crebain|LTR
+4 Dunland Crebain|LTR
+4 Dunland Crebain|LTR
+2 Boon of the Wish-Giver|LTC
+2 Nasty End|LTR
+4 Gorbag of Minas Morgul|LTR
 6 Swamp|LTR
 2 Swamp|LTR
 1 Swamp|LTR
@@ -19,4 +19,4 @@ Name=wraithswampwalk
 6 Swamp|LTR
 2 Swamp|LTR
 1 Swamp|LTR
-4 Barad-dur
+4 Urborg, Tomb of Yawgmoth|LTC

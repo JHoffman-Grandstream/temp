@@ -2,14 +2,14 @@
 Name=treefolk
 [Main]
 [Main]
-1 Eowyn, Lady of Rohan
-1 Eastfarthing Farmer
-1 Dunedain Blade
-1 Protector of Gondor
-1 Eowyn, Lady of Rohan
-1 Rangers of Ithilien
-1 Samwise the Stouthearted
-1 Boromir, Warden of the Tower
+1 Dunedain Rangers|LTR
+1 Brandywine Farmer|LTR
+1 Brandywine Farmer|LTR
+1 Brandywine Farmer|LTR
+1 Dunedain Rangers|LTR
+1 Legolas, Master Archer|LTR
+1 Dunedain Rangers|LTR
+1 Legolas, Master Archer|LTR
 1 Forest|LTR
 1 Forest|LTR
 1 Forest|LTR
@@ -26,29 +26,29 @@ Name=treefolk
 1 Forest|LTR
 1 Forest|LTR
 2 Forest|LTR
-2 Bill the Pony
-1 Stalwarts of Osgiliath
-1 Soul's Attendant
-1 Voracious Fell Beast
-1 Lost to Legend
-1 Boon of the Wish-Giver
-1 Boromir, Warden of the Tower
-1 East-Mark Cavalier
-1 Isolation at Orthanc
-1 Frodo, Sauron's Bane
-1 Tale of Tinuviel
-1 Stalwarts of Osgiliath
-1 Eowyn, Lady of Rohan
-1 Esquire of the King
-1 Dunedain Blade
-2 Lost to Legend
-1 Hobbit's Sting
-1 Barrow-Blade
-1 Eowyn, Lady of Rohan
-1 Tuinvale Treefolk|ELD|1
-1 Samwise the Stouthearted
-1 Rangers of Ithilien
+2 Entish Restoration|LTR
+1 Brandywine Farmer|LTR
+1 Dunedain Rangers|LTR
+1 Celeborn the Wise|LTR
+1 Gift of Strands|LTR
+1 Explore|LTC
+1 Legolas, Master Archer|LTR
+1 Brandywine Farmer|LTR
+1 Pippin's Bravery|LTR
+1 Fall of Gil-galad|LTR
+1 Gift of Strands|LTR
+1 Bombadil's Song|LTR
+1 Dunedain Rangers|LTR
+1 Brandywine Farmer|LTR
+1 Brandywine Farmer|LTR
+2 Entish Restoration|LTR
+1 Pippin's Bravery|LTR
+1 Dunedain Rangers|LTR
+1 Dunedain Rangers|LTR
+1 Brandywine Farmer|LTR
+1 Dunedain Rangers|LTR
+1 Legolas, Master Archer|LTR
 1 Vastwood Fortification|ZNR|1
-1 Saruman's Trickery
-1 Esquire of the King
-1 Frodo, Sauron's Bane
+1 Ent-Draught Basin|LTR
+1 Brandywine Farmer|LTR
+1 Fangorn, Tree Shepherd|LTR

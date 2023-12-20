@@ -2,34 +2,34 @@
 Name=death_knight
 [Main]
 [Main]
-1 Hobbit's Sting
-1 Escape from Orthanc
-1 Goldberry, River-Daughter
-1 Eastfarthing Farmer
-1 Gandalf the White
-1 Escape from Orthanc
-4 Hobbit's Sting
-1 Voracious Fell Beast
-1 Eagles of the North
-2 Foulmire Knight|ELD|1
-1 Lost to Legend
-1 Boromir, Warden of the Tower
-1 Eowyn, Lady of Rohan
-1 Saruman's Trickery
-1 Voracious Fell Beast
-1 Rangers of Ithilien
-1 Eowyn, Lady of Rohan
-1 Frodo, Sauron's Bane
-1 Rangers of Ithilien
-1 Sauron, the Necromancer
-1 Fog on the Barrow-Downs
-1 Murderous Rider|ELD|1
-1 Boromir, Warden of the Tower
-2 Samwise the Stouthearted
-1 Boromir, Warden of the Tower
-1 Lost to Legend
-1 Eowyn, Lady of Rohan
-2 Samwise the Stouthearted
+1 Nasty End|LTR
+1 Nasty End|LTR
+1 One Ring to Rule Them All|LTR
+1 Dunland Crebain|LTR
+1 Abyssal Persecutor|LTC
+1 Nasty End|LTR
+4 Nasty End|LTR
+1 Gorbag of Minas Morgul|LTR
+1 Dunland Crebain|LTR
+2 Gorbag of Minas Morgul|LTR
+1 Go for the Throat|LTC
+1 Lobelia Sackville-Baggins|LTR
+1 Barrow-Blade|LTR
+1 Gollum's Bite|LTR
+1 Gorbag of Minas Morgul|LTR
+1 Sauron, the Necromancer|LTR
+1 Gorbag of Minas Morgul|LTR
+1 A-Orcish Bowmasters|LTR
+1 Lobelia Sackville-Baggins|LTR
+1 One Ring to Rule Them All|LTR
+1 Nasty End|LTR
+1 Orcish Bowmasters|LTR
+1 One Ring to Rule Them All|LTR
+2 Gorbag of Minas Morgul|LTR
+1 Lobelia Sackville-Baggins|LTR
+1 Gollum's Bite|LTR
+1 Gorbag of Minas Morgul|LTR
+2 Gorbag of Minas Morgul|LTR
 2 Swamp|LTR
 3 Swamp|LTR
 2 Swamp|LTR
@@ -44,4 +44,4 @@ Name=death_knight
 1 Swamp|LTR
 1 Swamp|LTR
 2 Swamp|LTR
-1 Voracious Fell Beast
+1 Gorbag of Minas Morgul|LTR

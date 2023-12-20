@@ -10,7 +10,7 @@ Deck Type=constructed
 [Main]
 1 Angelic Overseer
 1 Archangel
-1 Frodo, Sauron's Bane
+1 Frodo, Sauron's Bane|LTR
 2 Doomed Traveler
 2 Elder Cathar
 2 Elgaud Inquisitor
@@ -19,11 +19,11 @@ Deck Type=constructed
 1 Geist-Honored Monk
 2 Goldnight Commander
 2 Hallow
-1 Flowering of the White Tree
+1 Forge Anew|LTR
 1 Mentor of the Meek
 1 Midnight Guard
 2 Oblivion Ring
-2 You Cannot Pass!
+2 Path to Exile|LTC
 25 Plains|LTR
 1 Requiem Angel
 2 Selfless Cathar

@@ -9,15 +9,15 @@ Name=flame_elemental
 [Conspiracy]
 [Dungeon]
 [Main]
-2 Eastfarthing Farmer
-2 Fangorn, Tree Shepherd
-4 Boromir, Warden of the Tower
-2 War of the Last Alliance
-4 Long List of the Ents
-2 Boromir, Warden of the Tower
-4 Samwise the Stouthearted
-4 You Cannot Pass!
-4 Goldberry, River-Daughter
+2 Erebor Flamesmith|LTR
+2 Shagrat, Loot Bearer|LTR
+4 Fall of Cair Andros|LTR
+2 Fall of Cair Andros|LTR
+4 Eomer of the Riddermark|LTR
+2 Fall of Cair Andros|LTR
+4 Eomer of the Riddermark|LTR
+4 Fiery Inscription|LTR
+4 Fall of Cair Andros|LTR
 3 Mountain|LTR
 1 Mountain|LTR
 1 Mountain|LTR
@@ -33,7 +33,7 @@ Name=flame_elemental
 2 Mountain|LTR
 1 Mountain|LTR
 3 Mountain|LTR
-1 Dunedain Blade
-4 Hobbit's Sting
-1 Access Tunnel
-4 Long List of the Ents
+1 Lembas|LTR
+4 Gimli's Fury|LTR
+1 Ramunap Ruins|HOU|1
+4 Eomer of the Riddermark|LTR

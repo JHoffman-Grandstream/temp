@@ -8,19 +8,19 @@ Icon=Nissa Revane 2.jpg
 Deck Type=constructed
 [Main]
 [Main]
-1 Storm of Saruman
-1 Gandalf the White
-1 Witch-king, Sky Scourge
+1 Witch-king, Sky Scourge|LTC
+1 The Great Henge|LTC
+1 Ishkanah, Grafwidow|LTC
 1 Brambleweft Behemoth
 2 Dryad Arbor
-1 Arwen, Mortal Queen
-3 Great Hall of the Citadel
+1 Ishkanah, Grafwidow|LTC
+3 Evolving Wilds|LTC
 12 Forest|LTR
 2 Guardian of the Great Conduit
-3 Foray of Orcs
+3 Explore|LTC
 2 Hunting Wilds
 1 Liege of the Tangle
-2 Hobbit's Sting
+2 Pippin's Bravery|LTR
 1 Nissa's Encouragement
 1 Nissa's Pilgrimage
 2 Nissa's Zendikon
@@ -33,7 +33,7 @@ Deck Type=constructed
 2 Spidersilk Armor
 2 Staff of the Wild Magus
 3 Sylvan Advocate
-1 Sauron, the Necromancer
-4 Tranquil Thicket
+1 Timber Protector|LTC
+4 Tranquil Thicket|LTC
 2 Undergrowth Champion
-1 Barad-dur
+1 Yavimaya Hollow
