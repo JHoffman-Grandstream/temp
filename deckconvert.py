@@ -8,7 +8,9 @@ def load_converted_cards(filename='converted.json'):
     """Load the converted cards mapping from a JSON file."""
     with open(filename, 'r') as file:
         converted_cards = json.load(file)
-    return {card['mtg_card']: (card['lotr_card'], card['setCode']) for card in converted_cards}
+    
+    # Ignore 'setCode' and only store the card name mapping
+    return {card['mtg_card']: card['lotr_card'] for card in converted_cards}
 
 def extract_card_name(card_info):
     """Extract the card name from the card information."""
@@ -48,8 +50,13 @@ def convert_deck_file(input_path, output_dir, conversion_map):
                     card_count, card_info = parts
                     card_name = extract_card_name(card_info)
                     if card_name:
-                        if card_name in conversion_map:
-                            lotr_card, _ = conversion_map[card_name]  # Ignore set information
+                        # Check if the card name is in the list of exceptions
+                        if card_name in ("Forest", "Swamp", "Plains", "Mountain", "Island"):
+                            # Replace with the same quantity and type but change the set to |LTR
+                            converted_line = f"{card_count} {card_name}|LTR"
+                            converted_lines.append(converted_line)
+                        elif card_name in conversion_map:
+                            lotr_card = conversion_map[card_name]  # Ignore set information
                             converted_line = f"{card_count} {lotr_card}"
                             converted_lines.append(converted_line)
                         else:
