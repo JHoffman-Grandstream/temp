@@ -65,8 +65,10 @@ def process_dck_files_in_directory(folder_path):
                 dck_file_path = os.path.join(root, filename)
                 with open(dck_file_path, 'r') as file:
                     for line in file:
-                        if '|' in line and line[0].isdigit():
-                            _, card_info = line.split(' ', 1)
+                        line = line.strip()  # Remove leading and trailing spaces
+                        if line and line[0].isdigit() and '|' in line:
+                            # Split the line into quantity and card info
+                            card_count, card_info = line.split(' ', 1)
                             card_name = card_info.split('|')[0].strip()
 
                             if card_name not in all_cards:
